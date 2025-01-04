@@ -1,7 +1,7 @@
 <div class="container__big-card">
     <div class="big-card__photo">
         <img 
-            src="https://images.ctfassets.net/aq13lwl6616q/4wW7nnU5Nuuf9DHIIcO4Zo/8ae7a14d02e637c838d28643c32b8dc7/Angular_zero_to_mastery_.jpeg" 
+            src="{{ photoCover }}" 
             alt=""
             height="260px"
             srcset=""
@@ -9,15 +9,12 @@
     </div>
     
     <div class="big-card__title">
-        <h1><a href="#">TI Experient entra com tudo em 2025</a></h1>
+        <h1><a href="#">{{ cardTitle }}</a></h1>
     </div>
 
     <div class="big-card__description">
         <p>
-            <a href="#">
-                A Dev Célia Medeiros decidiu acrescentar novas funcionalidades ao seu upgrade. Além dos conhecimentos adquiridos
-                ao longo dos anos, a programadora cedeu aos encantos do Angular, framework desenvolvido pela Google.
-            </a>
+            <a href="#">{{ cardDescription }}</a>
         </p>
     </div>
 </div>

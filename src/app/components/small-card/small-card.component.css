@@ -9,6 +9,7 @@
 }
 
 .small-card__photo > img {
+    border-radius: 10px;
     width: 200px;
     min-width: 200px;
     margin-right: 20px;
@@ -18,6 +19,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.small-card__title > h1 {
+    font-size: 26px;
 }
 
 .container__small-card__separator{
