@@ -1,6 +1,6 @@
-<div class="container__small-card">
-    <div class="container__small-card-content">
-        <div class="small-card__photo">
+<div class="container__notice-main">
+    <div class="container__notice-main-content">
+        <div class="notice-main__photo">
             <img 
                 src="{{ photoCover }}" 
                 alt=""
@@ -8,12 +8,12 @@
             >
         </div>
     
-        <div class="small-card__title">
+        <div class="notice-main__title">
             <h1><a [routerLink]="['content', cardId]">{{ cardTitle }}</a></h1>
         </div>
     </div>
 
-    <div class="container__small-card__separator">
+    <div class="container__notice-main__separator">
         <hr>
     </div>
 </div>

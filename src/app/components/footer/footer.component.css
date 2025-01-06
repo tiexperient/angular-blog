@@ -1,41 +1,27 @@
+:host {
+  display: block;
+  background-color: #373a3c;
+  color: #ecf0f1;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+img {
+  background-color: #373a3c;
+  margin-bottom: -5px;
+}
+
+a {
+  background-color: #373a3c;
+  color: bisque;
+}
+
 .footer {
     background-color: #373a3c;
-    color: #ecf0f1;
     padding: 20px 0;
-    text-align: center;
   }
   
-  .footer .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-    background-color: #373a3c;
-  }
-  
-  .footer nav {
-    margin-top: 10px;
-  }
-  
-  .footer nav a {
-    color: #ecf0f1;
-    margin: 0 10px;
-    text-decoration: none;
-  }
-  
-  .footer nav a:hover {
-    text-decoration: underline;
-  }
-
   .container > p {
     background-color: #373a3c;
-  }
-
-  img {
-    background-color: #373a3c;
-    margin-bottom: -5px;
-  }
-  
-  a {
-    background-color: #373a3c;
-    color: bisque;
   }

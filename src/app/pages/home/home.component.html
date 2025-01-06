@@ -1,11 +1,8 @@
-<header>
-    <app-menu-bar></app-menu-bar>
-</header>
-
 <app-menu-title></app-menu-title>
 <div class="container__artigos">
     <div class="artigos-master">
         <app-big-card
+            cardId="1"
             photoCover="https://images.ctfassets.net/aq13lwl6616q/4wW7nnU5Nuuf9DHIIcO4Zo/8ae7a14d02e637c838d28643c32b8dc7/Angular_zero_to_mastery_.jpeg"
             cardTitle="TI Experient entra com tudo em 2025"
             cardDescription="A Dev Célia Medeiros decidiu acrescentar novas funcionalidades ao seu upgrade. Além dos conhecimentos adquiridos ao longo dos anos, 
@@ -15,7 +12,15 @@
     </div>
 
     <div class="artigos-outros">
+            <app-notice-main
+            cardId="1"
+                photoCover="https://images.ctfassets.net/aq13lwl6616q/4wW7nnU5Nuuf9DHIIcO4Zo/8ae7a14d02e637c838d28643c32b8dc7/Angular_zero_to_mastery_.jpeg"
+                cardTitle="TI Experient entra com tudo em 2025"
+            >
+            </app-notice-main>
+
             <app-small-card
+            cardId="2"
                 photoCover="assets/img/rotina-natalina.jpeg"
                 cardTitle="Maratona Angular em Dezembro"
             >
@@ -23,6 +28,7 @@
 
         <div class="artigos-outros">
             <app-small-card
+                cardId="3"
                 photoCover="assets/img/dev-celia.jpeg"
                 cardTitle="Dev diz estar otimista com Bootcamp"
             >
@@ -30,9 +36,11 @@
         
         <div class="artigos-outros">
             <app-small-card
-                photoCover="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8lRbS7eKYzDq-Ftxc1p8G_TTw2unWBMEYUw&s"
+                cardId="4"
+                photoCover="assets/img/rotina-estudo.jpeg"
                 cardTitle="Rotina de estudos se faz fundamental"
             >
             </app-small-card>
     </div>
 </div>
+

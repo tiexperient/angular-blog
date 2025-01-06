@@ -1,0 +1,35 @@
+@media screen and (max-width:600px) {
+
+    .container__small-card{
+        position: relative; /* Necessário para referência do absoluto */
+        height: 100vh; /* Exemplo de altura total da tela */
+        width: 500px;
+    }
+    
+    .container__small-card-content{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .small-card__photo > img {
+        width: 450px;
+        position: absolute;
+        top: 50%; /* Move para o meio verticalmente */
+        left: 50%; /* Move para o meio horizontalmente */
+        transform: translate(-50%, -50%); /* Ajusta o centro exato */
+    }
+    
+    .small-card__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .small-card__title > h1 {
+        font-size: 25px;
+    }
+    
+    .container__small-card__separator{
+        margin-top: 10px;
+    }
+    
+}

@@ -1,0 +1,40 @@
+@media screen and (max-width:600px) {
+    .container__notice-main{
+        display: block;
+        position: relative; /* Necessário para referência do absoluto */
+        height: 100vh; /* Exemplo de altura total da tela */
+        width: 500px;
+    }
+    
+    .container__notice-main-content{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .notice-main__photo > img {
+        width: 450px;
+        position: absolute;
+        top: 50%; /* Move para o meio verticalmente */
+        left: 50%; /* Move para o meio horizontalmente */
+        transform: translate(-50%, -50%); /* Ajusta o centro exato */
+    }
+    
+    .notice-main__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .notice-main__title > h1 {
+        font-size: 25px;
+    }
+    
+    .container__notice-main__separator{
+        margin-top: 10px;
+    }   
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .container__notice-main{
+        display: block;
+    } 
+}
