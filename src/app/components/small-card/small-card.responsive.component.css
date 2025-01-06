@@ -2,7 +2,7 @@
 
     .container__small-card{
         position: relative; /* Necessário para referência do absoluto */
-        height: 55vh; /* Exemplo de altura total da tela */
+        height: 60vh; /* Exemplo de altura total da tela */
         width: 500px;
     }
     
