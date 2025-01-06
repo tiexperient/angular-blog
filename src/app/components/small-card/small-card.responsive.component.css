@@ -2,7 +2,7 @@
 
     .container__small-card{
         position: relative; /* Necessário para referência do absoluto */
-        height: 100vh; /* Exemplo de altura total da tela */
+        height: 55vh; /* Exemplo de altura total da tela */
         width: 500px;
     }
     
@@ -25,7 +25,7 @@
         align-items: center;
     }
     .small-card__title > h1 {
-        font-size: 25px;
+        font-size: 22px;
     }
     
     .container__small-card__separator{
