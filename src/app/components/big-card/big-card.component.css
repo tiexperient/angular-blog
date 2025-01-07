@@ -1,10 +1,8 @@
 .container__big-card{
     margin-left: 20px;
     margin-right: 20px;
-
     width: 400px;
     height: 500px;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -27,12 +25,11 @@
     color: grey;
     margin-top: 5px;
 }
+
 .big-card__description {
     margin-top: 20px;
     color: grey;
 }
-
-
 .big-card__description > p > a {
     margin-top: 10px;
     color: grey;
