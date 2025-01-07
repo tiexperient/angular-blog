@@ -14,7 +14,7 @@
     }
     
     .small-card__photo > img {
-        width: 450px;
+        width: 400px;
         position: absolute;
         top: 50%; /* Move para o meio verticalmente */
         left: 50%; /* Move para o meio horizontalmente */
