@@ -26,6 +26,7 @@
         align-items: center;
     }
     .small-card__title > h1 {
+        margin-top: 20px;
         font-size: 22px;
     }
     
