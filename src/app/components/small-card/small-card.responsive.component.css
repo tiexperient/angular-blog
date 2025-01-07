@@ -8,6 +8,7 @@
     }
     
     .container__small-card-content{
+        margin-top: -60px;
         display: flex;
         flex-direction: column;
     }
@@ -31,8 +32,7 @@
     }
     
     .container__small-card__separator{
-        margin-top: 10px;
-        
+        margin-top: 10px;   
     }
     
 }

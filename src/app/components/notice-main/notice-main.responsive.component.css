@@ -25,6 +25,7 @@
         align-items: center;
     }
     .notice-main__title > h1 {
+        margin-top: 20px;
         font-size: 22px;
     }
     
