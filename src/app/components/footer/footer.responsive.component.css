@@ -1,0 +1,8 @@
+@media (max-width:600px) {
+    .standard{
+        display: none;
+      }
+    .mobile{
+        display: block;
+      }
+}

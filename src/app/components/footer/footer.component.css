@@ -25,3 +25,7 @@ a {
   .container > p {
     background-color: #373a3c;
   }
+
+  .mobile{
+    display: none;
+  }
