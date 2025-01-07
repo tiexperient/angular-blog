@@ -7,13 +7,14 @@
     }
     
     .container__notice-main-content{
+        padding-top: 40px;
         display: flex;
         flex-direction: column;
     }
     
     .notice-main__photo > img {
         border: 3px solid white;
-        width: 400px;
+        width: 380px;
         position: absolute;
         top: 50%; /* Move para o meio verticalmente */
         left: 50%; /* Move para o meio horizontalmente */
