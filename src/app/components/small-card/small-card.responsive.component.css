@@ -9,7 +9,7 @@
     
     .container__small-card-content{
         margin-top: -100px;
-        padding-top: 40px;
+        padding-top: 30px;
         display: flex;
         flex-direction: column;
     }
