@@ -1,5 +1,8 @@
+hr{
+    margin-top: 20px;
+}
+
 .container__content{
-    border: 1px solid white;
     width: 100%;
     height: 100vh; /* Ocupa toda a tela e não atrapalha o footer */
 
@@ -33,4 +36,5 @@
 .content__description > p {
     margin-top: 20px;
     color: gray;
+    margin: 0 5%;
 }
