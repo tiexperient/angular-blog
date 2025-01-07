@@ -1,6 +1,13 @@
 export const dataFake = [
     {
-        "id": "1",
+        "id": "4",
+        "title": "Rotina de estudos se faz fundamental",
+        "time":"Janeiro/2025",
+        "description": "Este conteúdo está sendo desenvolvido. Aguarde futuras atualizações",
+        "photoCover": "assets/img/rotina-estudo.jpeg"
+    },
+    {
+        "id": "3",
         "title": "TI Experient entra com tudo em 2025",
         "time":"Dezembro/2024",
         "description": "A Dev Célia Medeiros decidiu acrescentar novas funcionalidades ao seu upgrade. Além dos conhecimentos adquiridos ao longo dos anos, a programadora cedeu aos encantos do Angular, framework desenvolvido pela Google.",
@@ -10,7 +17,14 @@ export const dataFake = [
         "id": "2",
         "title": "Maratona Angular em Dezembro",
         "time":"Dezembro/2024",
-        "description": "Descrever conteúdo de id2",
+        "description": "Este conteúdo não chegou a ser escrito, por ter sido publicado na época de produção do Blog.",
         "photoCover": "assets/img/rotina-natalina.jpeg"
+    },
+    {
+        "id": "1",
+        "title": "Dev diz estar otimista com Bootcamp",
+        "time":"Dezembro/2024",
+        "description": "Este conteúdo não chegou a ser escrito, por ter sido publicado na época de produção do Blog.",
+        "photoCover": "assets/img/dev-celia.jpeg"
     }
 ]

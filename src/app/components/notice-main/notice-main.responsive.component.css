@@ -1,8 +1,8 @@
 @media (max-width:600px) {
     .container__notice-main{
         display: block;
-        position: relative; /* Necessário para referência do absoluto */
-        height: 55vh; /* Exemplo de altura total da tela */
+        position: relative;
+        height: 55vh;
         width: 500px;
     }
     
@@ -16,9 +16,9 @@
         border: 3px solid white;
         width: 380px;
         position: absolute;
-        top: 50%; /* Move para o meio verticalmente */
-        left: 50%; /* Move para o meio horizontalmente */
-        transform: translate(-50%, -50%); /* Ajusta o centro exato */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     
     .notice-main__title {
@@ -30,7 +30,10 @@
         margin-top: 30px;
         font-size: 22px;
     }
-    
+    .notice-main__title > p {
+        margin-top: 0;
+    }
+
     .container__notice-main__separator{
         margin-top: 10px;
     }   
