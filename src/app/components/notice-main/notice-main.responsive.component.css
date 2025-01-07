@@ -1,4 +1,4 @@
-@media screen and (max-width:600px) {
+@media (max-width:600px) {
     .container__notice-main{
         display: block;
         position: relative; /* Necessário para referência do absoluto */
@@ -12,7 +12,8 @@
     }
     
     .notice-main__photo > img {
-        width: 450px;
+        border: 3px solid white;
+        width: 400px;
         position: absolute;
         top: 50%; /* Move para o meio verticalmente */
         left: 50%; /* Move para o meio horizontalmente */
@@ -25,12 +26,12 @@
         align-items: center;
     }
     .notice-main__title > h1 {
-        margin-top: 20px;
+        margin-top: 30px;
         font-size: 22px;
     }
     
     .container__notice-main__separator{
-        margin-top: 10px;
+        margin-top: 20px;
     }   
 }
 

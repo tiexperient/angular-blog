@@ -1,8 +1,8 @@
 @media screen and (max-width:600px) {
 
     .container__small-card{
-        position: relative; /* Necessário para referência do absoluto */
-        height: 55vh; /* Exemplo de altura total da tela */
+        position: relative;
+        height: 55vh; 
         width: 500px;
         margin-bottom: 0;
     }
@@ -14,12 +14,13 @@
     }
     
     .small-card__photo > img {
-        width: 350px;
+        border: 3px solid white;
+        width: 400px;
         align-items: center;
         position: absolute;
-        top: 50%; /* Move para o meio verticalmente */
-        left: 50%; /* Move para o meio horizontalmente */
-        transform: translate(-50%, -50%); /* Ajusta o centro exato */
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%); 
     }
     
     .small-card__title {
@@ -28,7 +29,7 @@
         align-items: center;
     }
     .small-card__title > h1 {
-        margin-top: 20px;
+        margin-top: 30px;
         font-size: 22px;
     }
     
