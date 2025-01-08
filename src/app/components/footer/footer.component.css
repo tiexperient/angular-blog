@@ -20,6 +20,7 @@ a {
 .footer {
     background-color: #373a3c;
     padding: 20px 0;
+    bottom: 0;
   }
   
   .container > p {
