@@ -1,4 +1,4 @@
-@media screen and (max-width:600px) {
+@media (max-width:600px) {
 
     .container__small-card{
         position: relative;
@@ -38,5 +38,10 @@
     .container__small-card__separator{
         margin-top: 10px;   
     }
-    
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+    .small-card__title > h1 {
+        font-size: 20px;
+    }
 }
