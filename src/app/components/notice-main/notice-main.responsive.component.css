@@ -63,4 +63,8 @@
     .container__notice-main {
         display: block;
     }
+
+    .notice-main__title > p {
+        margin-top: 2px;
+    }
 }
