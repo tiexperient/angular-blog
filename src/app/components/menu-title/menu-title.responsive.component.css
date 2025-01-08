@@ -12,3 +12,10 @@
         margin-left: 20px;
     }
 }
+
+@media (min-width: 601px) and (max-width: 800px) and (orientation: portrait) {
+    .container__menu-title > h1{
+        font-size: 80px;
+    }
+  }
+  
