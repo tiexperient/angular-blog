@@ -1,18 +1,18 @@
-/*Celular Retrato*/
+/* Celular Retrato */
 @media (max-width:600px) {
     .container__menu-title > h1{
         font-size: 40px;
     } 
 }
 
-/*Celular Paisagem*/
+/* Celular Paisagem */
 @media (max-width:800px) and (orientation: landscape) {
     .container__menu-title > h1{
         font-size: 60px;
     }
 }
 
-/*Tablet Retrato*/
+/* Tablet Retrato */
 @media (min-width: 601px) and (max-width: 800px) and (orientation: portrait) {
     .container__menu-title > h1{
         font-size: 60px;
@@ -21,10 +21,10 @@
         margin-left: 20px;
     }
 }
- /*Tablet Paisagem*/
+ /* Tablet Paisagem */
 @media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
     .container__menu-title > h1{
-        font-size: 60px;
+        font-size: 80px;
     }
   }
   
