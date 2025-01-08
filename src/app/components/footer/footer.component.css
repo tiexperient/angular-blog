@@ -1,5 +1,4 @@
 :host {
-  display: block;
   background-color: #373a3c;
   color: #ecf0f1;
   padding: 20px 0;
@@ -18,6 +17,7 @@ a {
 }
 
 .footer {
+    display: block;
     background-color: #373a3c;
     padding: 20px 0;
     bottom: 0;

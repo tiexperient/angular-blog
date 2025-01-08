@@ -7,7 +7,7 @@
 
 /* Tablet Retrato */
 @media (min-width: 601px) and (max-width: 800px) {
-    .container__big-card{
+    .container{
         display: none;
     } 
 }
