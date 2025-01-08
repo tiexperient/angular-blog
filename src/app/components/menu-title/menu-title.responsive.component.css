@@ -1,9 +1,15 @@
-@media screen and (max-width:600px) {
+/*Celular Retrato*/
+@media (max-width:600px) {
     .container__menu-title > h1{
         font-size: 40px;
     } 
 }
 
+@media (max-width:600px) and (orientation: landscape) {
+
+}
+
+/*Tablet Retrato*/
 @media (min-width: 601px) and (max-width: 800px) and (orientation: portrait) {
     .container__menu-title > h1{
         font-size: 60px;
