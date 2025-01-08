@@ -59,6 +59,6 @@
  /* Tablet Paisagem */
  @media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
     .small-card__title > h1 {
-        font-size: 60px;
+        font-size: 16px;
     }
   }
