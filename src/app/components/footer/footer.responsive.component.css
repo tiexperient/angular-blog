@@ -17,7 +17,7 @@
  /* Tablet Paisagem */
  @media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
     .footer {
-      margin-left: 40px;
+      margin-left: 20px;
     }
     .mobile{
       display: none;
