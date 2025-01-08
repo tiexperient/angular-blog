@@ -9,7 +9,7 @@
 
 /* Celular Paisagem */
 @media (max-width:800px) and (orientation: landscape) {
-    .standard{
+    .footer{
       display: none;
   }
 }
