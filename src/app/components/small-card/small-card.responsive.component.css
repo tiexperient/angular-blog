@@ -44,4 +44,12 @@
     .small-card__title > h1 {
         font-size: 20px;
     }
+
+    .container__small-card{
+        display: block;
+    }
+    
+    .small-card__photo > img {
+        margin-left: 40px;
+    }
 }
