@@ -2,10 +2,10 @@
     .content__cover > img {
         border: 3px solid white;
         border-radius: 5px;
-        width: 350px;
+        width: 300px;
     }
 
     .content__title{
-        font-size: 14px;
+        font-size: 10px;
     }
 }
