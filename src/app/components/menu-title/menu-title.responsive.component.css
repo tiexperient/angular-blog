@@ -4,13 +4,11 @@
         font-size: 40px;
     } 
 }
-
+/*
 @media (max-width:600px) and (orientation: landscape) {
-    .container__menu-title > h1{
-        font-size: 10px;
-    }
-}
 
+}
+*/
 /*Tablet Retrato*/
 @media (min-width: 601px) and (max-width: 800px) and (orientation: portrait) {
     .container__menu-title > h1{
@@ -22,6 +20,8 @@
 }
 
 @media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
-
+    .container__menu-title > h1{
+        font-size: 10px;
+    }
   }
   
