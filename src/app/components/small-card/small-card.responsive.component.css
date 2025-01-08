@@ -1,3 +1,4 @@
+/* Celular Retrato */
 @media (max-width:600px) {
 
     .container__small-card{
@@ -40,6 +41,7 @@
     }
 }
 
+/* Tablet Retrato */
 @media (min-width: 601px) and (max-width: 800px) {
     .small-card__title > h1 {
         font-size: 20px;
@@ -53,3 +55,10 @@
         margin-left: 50px;
     }
 }
+
+ /* Tablet Paisagem */
+ @media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
+    .small-card__title > h1 {
+        font-size: 60px;
+    }
+  }
