@@ -47,6 +47,9 @@
     .notice-main__title > h1 {
         font-size: 20px;
     }
+    .notice-main__title > p {
+        margin-top: 5px;
+    }
 
     .notice-main__photo > img {
         margin-left: 40px;
