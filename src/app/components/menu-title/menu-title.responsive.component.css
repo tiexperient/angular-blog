@@ -5,9 +5,10 @@
     } 
 }
 
+/*Celular Paisagem*/
 @media (max-width:800px) and (orientation: landscape) {
     .container__menu-title > h1{
-        display: none;
+        font-size: 60px;
     }
 }
 
