@@ -15,7 +15,7 @@ hr{
     margin-top: 20px;;
 }
 .content__cover > img {
-    border-radius: 5px;
+    border-radius: 10px;
     width: 500px;
     min-width: 500px;
     height: 300px;
