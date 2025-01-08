@@ -7,3 +7,14 @@
         height: 200vh;
     } 
 }
+
+/* Tablet Paisagem */
+@media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
+    .container__notice-main {
+        display: block;
+    }
+
+    .container__artigos {
+        height: 250px;
+    }
+}
