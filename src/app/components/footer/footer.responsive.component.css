@@ -7,9 +7,16 @@
       }
 }
 
+/* Celular Paisagem */
+@media (max-width:800px) and (orientation: landscape) {
+    .standard{
+      display: none;
+  }
+}
+
  /* Tablet Paisagem */
  @media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
     .standard {
-      margin-left: 50px;
+      margin-left: 60px;
     }
 }
