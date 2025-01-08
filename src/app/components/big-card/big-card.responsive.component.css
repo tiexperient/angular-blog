@@ -15,6 +15,6 @@
  /* Tablet Paisagem */
  @media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
     .container__big-card{
-        margin-left: 200px;
+        margin-left: 180px;
     } 
   }
