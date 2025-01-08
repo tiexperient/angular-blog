@@ -8,4 +8,7 @@
     .container__menu-title > h1{
         font-size: 60px;
     }
+    .container__menu-title > hr {
+        margin-left: 20px;
+    }
 }
