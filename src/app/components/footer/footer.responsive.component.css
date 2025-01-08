@@ -6,3 +6,10 @@
         display: block;
       }
 }
+
+ /* Tablet Paisagem */
+ @media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
+    .standard {
+      margin-left: 50px;
+    }
+}
