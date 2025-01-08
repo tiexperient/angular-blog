@@ -1,4 +1,5 @@
-@media (max-width:600px) {
+/* Celular Retrato */
+@media (max-width:600px) and (orientation: portrait) {
     .standard{
         display: none;
       }

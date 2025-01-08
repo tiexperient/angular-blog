@@ -1,4 +1,5 @@
-@media (max-width:600px) {
+/* Celular Retrato */
+@media (max-width:600px) and (orientation: portrait) {
     .container__notice-main{
         display: block;
         position: relative;
@@ -39,7 +40,8 @@
     }   
 }
 
-@media (min-width: 601px) and (max-width: 800px) {
+/* Tablet Retrato */
+@media (min-width: 601px) and (max-width: 800px) and (orientation: landscape) {
     .container__notice-main{
         display: block;
     } 
@@ -53,5 +55,12 @@
 
     .notice-main__photo > img {
         margin-left: 50px;
+    }
+}
+
+/* Tablet Paisagem */
+@media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
+    .container__notice-main {
+        display: block;
     }
 }
