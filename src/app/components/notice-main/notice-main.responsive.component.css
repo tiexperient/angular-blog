@@ -45,6 +45,10 @@
     .container__notice-main{
         display: block;
     } 
+
+    .notice-main__title > p {
+        margin-top: 5px;
+    }
 }
 
 /* Tablet Retrato */
