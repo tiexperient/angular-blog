@@ -17,7 +17,7 @@
 /* Celular Paisagem */
 @media (max-width:800px) and (orientation: landscape) {
     .container__artigos {
-        height: 230vh;
+        height: 220vh;
     }
 }
 
