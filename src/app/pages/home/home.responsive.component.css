@@ -10,14 +10,14 @@
 /* Celular Retrato */
 @media (max-width:800px) and (orientation: portrait) {
     .container__artigos {
-        height: 200vh;
+        height: 190vh;
     }
 }
 
 /* Celular Paisagem */
 @media (max-width:800px) and (orientation: landscape) {
     .container__artigos {
-        height: 250vh;
+        height: 240vh;
     }
 }
 
