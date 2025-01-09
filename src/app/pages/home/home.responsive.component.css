@@ -10,8 +10,8 @@
 
 /* Tablet Retrato */
 @media (min-width: 601px) and (max-width: 800px) and (orientation: portrait) {
-    .container__artigos {
-        height: 120vh;
+        .container__artigos {
+        height: 80vh;
     }
 }
 
