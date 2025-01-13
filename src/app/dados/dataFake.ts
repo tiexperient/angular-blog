@@ -4,7 +4,7 @@ export const dataFake = [
         "title": "Rotina de estudos se faz fundamental",
         "time":"Janeiro/2025",
         "description": `
-        Nos dias atuais, o mercado de tecnologia tem se tornado cada vez mais competitivo. Como aspirante a Front-end Developer especializado em Angular, percebo que a chave para me destacar nesse ambiente desafiador é uma rotina de estudos bem planejada e consistente. Este artigo é um relato pessoal da minha jornada de aprendizado e como a disciplina tem sido essencial para meu progresso.
+        Nos dias atuais, o mercado de tecnologia tem se tornado cada vez mais competitivo. Como aspirante a Front-end Developer especializada em Angular, percebo que a chave para me destacar nesse ambiente desafiador é uma rotina de estudos bem planejada e consistente. Este artigo é um relato pessoal da minha jornada de aprendizado e como a disciplina tem sido essencial para meu progresso.
         <br><br>
         <h2>O ponto de partida</h2>
         Quando decidi me aprofundar no Angular, sabia que não seria uma tarefa fácil. Este é um framework robusto e muito utilizado no desenvolvimento de aplicações web. Para acompanhar a evolução do mercado e atender às demandas das empresas, compreendi que precisaria dedicar tempo e esforço.
