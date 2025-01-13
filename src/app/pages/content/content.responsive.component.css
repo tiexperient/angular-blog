@@ -1,7 +1,7 @@
 /* Celular Retrato */
 @media screen and (max-width:600px) and (orientation: portrait) {
     .container__content{
-        height: 250vh;
+        height: 300vh;
     }
 
     .content__cover > img {
