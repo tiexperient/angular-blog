@@ -1,6 +1,6 @@
 @media (max-width:600px) {
     .container__content{
-        height: 450vh;
+        height: 400vh;
     }
 
     .content__cover > img {
