@@ -1,6 +1,27 @@
-@media (max-width:600px) {
+/* Celular Retrato */
+@media screen and (max-width:600px) and (orientation: portrait) {
     .container__content{
-        height: 400vh;
+        height: 350vh;
+    }
+
+    .content__cover > img {
+        border: 3px solid white;
+        margin: 0 2%;
+        width: 370px;
+        min-width: 370px;
+        height: 200px;
+    }
+
+    .content__title{
+        margin-top: 10px;
+        font-size: 11px;
+    }
+}
+
+/* Celular Paisagem */
+@media (max-width:800px) and (orientation: landscape) {
+    .container__content{
+        height: 450vh;
     }
 
     .content__cover > img {
