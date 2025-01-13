@@ -2,7 +2,7 @@ export const dataFake = [
     {
         "id": "4",
         "title": "Rotina de estudos se faz fundamental",
-        "time":"Janeiro/2025",
+        "time":"Janeiro de 2025",
         "description": `
         Nos dias atuais, o mercado de tecnologia tem se tornado cada vez mais competitivo. Como aspirante a Front-end Developer 
         especializada em Angular, percebo que a chave para me destacar nesse ambiente desafiador é uma rotina de estudos bem 

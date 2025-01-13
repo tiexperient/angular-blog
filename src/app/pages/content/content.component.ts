@@ -20,8 +20,6 @@ export class ContentComponent implements OnInit {
   private id: string | null= "0"
   dataFake: any;
 
-  dataFakeTwo = dataFake; // Atribua os dados à propriedade
-
   constructor(
     private route:ActivatedRoute
   ) { }
