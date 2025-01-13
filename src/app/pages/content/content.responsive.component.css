@@ -41,6 +41,6 @@
  /* Tablet Paisagem */
  @media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
     .container__content{
-        height: 350vh;
+        height: 300vh;
     }
  }
