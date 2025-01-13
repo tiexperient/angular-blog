@@ -11,6 +11,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContentComponent } from './pages/content/content.component';
 import { NoticeMainComponent } from './components/notice-main/notice-main.component';
+import { AboutComponent } from './pages/about/about.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NoticeMainComponent } from './components/notice-main/notice-main.compon
     HomeComponent,
     FooterComponent,
     ContentComponent,
-    NoticeMainComponent
+    NoticeMainComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

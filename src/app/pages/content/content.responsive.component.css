@@ -1,4 +1,8 @@
 @media (max-width:600px) {
+    .container__content{
+        height: 450vh;
+    }
+
     .content__cover > img {
         border: 3px solid white;
         margin: 0 2%;

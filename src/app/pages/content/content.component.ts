@@ -7,6 +7,8 @@ import { dataFake } from '../../dados/dataFake';
   templateUrl: './content.component.html',
   styleUrls: ['./content.component.css', './content.responsive.component.css']
 })
+
+
 export class ContentComponent implements OnInit {
 
   @Input()
@@ -16,7 +18,9 @@ export class ContentComponent implements OnInit {
   @Input()
   contentDescription: string = ""
   private id: string | null= "0"
+  dataFake: any;
 
+  dataFakeTwo = dataFake; // Atribua os dados à propriedade
 
   constructor(
     private route:ActivatedRoute
