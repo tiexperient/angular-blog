@@ -1,8 +1,58 @@
 export const dataFake = [
     {
         "id": "4",
+        "title": "Capturando Pokémons com Angular e a PokéAPI",
+        "time":"24 de Janeiro de 2025",
+        "description": `
+        Se você ama Pokémons e é viciado em códigos, prepare-se! Hoje vou mostrar como criei um app Angular que transforma seu 
+        navegador em uma Pokédex interativa.
+        <br><br>
+        <h2>O Projeto: Uma Pokédex com Angular</h2>
+        A ideia do projeto é simples e divertida: criar um aplicativo onde você digita o nome do seu Pokémon favorito e, 
+        voilà, a imagem e o tipo dele aparecem magicamente em um card super estilizado! Tudo isso graças ao poder da PokéAPI e 
+        dos Services no Angular. 🔥💧🐉⚡🪨❄️🌱
+        <br><br>
+        <h2>O que é a PokéAPI?</h2>
+        Se você ainda não conhece, a PokéAPI é uma API REST gratuita cheia de informações sobre o mundo dos Pokémons: nomes, 
+        tipos, habilidades e até sprites oficiais. Pense nela como o Professor dos desenvolvedores!
+        <br><br>
+        Explore o link da PokéAPI bem <a href="https://pokeapi.co/">Aqui</a>.
+        <br><br>
+        <h2>Services no Angular: Nosso "TM" para Organização</h2>
+        No Angular, os Services são como aquelas "TMs" que ensinam movimentos únicos aos seus Pokémons. Eles ajudam a organizar 
+        o código e facilitam a comunicação entre componentes. No meu caso, o Service foi responsável por se conectar à PokéAPI 
+        e buscar todas as informações que eu precisava para exibir no app.
+        <br><br>
+        <h2>A Magia do App em Ação</h2>
+        A ideia central do app é permitir que você digite o nome do Pokémon que deseja encontrar. Ao completar a digitação  
+        de forma correta, o app se conecta à PokéAPI, pega as informações do Pokémon (como nome, tipo e imagem) e exibe 
+        tudo isso em um card bem estiloso.
+        <br><br>
+        <h2>CSS: O Estilo da Pokédex</h2>
+        Não basta funcionar, né? A experiência do usuário tem que ser marcante! Por isso, caprichei no design do card. 
+        Ele tem animações suaves e cores que refletem a energia dos tipos de Pokémon. Dá um toque especial que deixa tudo 
+        mais imersivo!
+        <br><br>
+        <h2>Experimente a Pokédex Online!</h2>
+        Você pode conferir o app funcionando ao vivo! Hospedei uma versão de demonstração para que você veja tudo isso em ação. 
+        Clique no link abaixo e teste:
+        <br><br>
+        Demo Online: <a href="https://tiexperient-pokemon.netlify.app/">Aqui</a>.
+        <br><br>
+        <h2>Contribua com o Projeto!</h2>
+        Se você curtiu a ideia, o código está disponível no meu GitHub para estudo e melhorias. Bora colaborar? 
+        Quem sabe você não adiciona novas funcionalidades, como exibir mais detalhes do Pokémon ou até criar uma 
+        lista de favoritos?
+        Link do meu Repositório com o projeto fonte no GitHub: <a href="https://github.com/tiexperient/angular-api-pokemon">Aqui</a>.
+        <br><br>
+        Foi uma aventura criar esse projeto e espero que você também se divirta. Até a próxima missão! 
+        `,
+        "photoCover": "assets/img/pokeapi.jpg"
+    },
+    {
+        "id": "3",
         "title": "Rotina de estudos se faz fundamental",
-        "time":"Janeiro de 2025",
+        "time":"18 de Janeiro de 2025",
         "description": `
         Nos dias atuais, o mercado de tecnologia tem se tornado cada vez mais competitivo. Como aspirante a Front-end Developer 
         especializada em Angular, percebo que a chave para me destacar nesse ambiente desafiador é uma rotina de estudos bem 
@@ -55,7 +105,7 @@ export const dataFake = [
         "photoCover": "assets/img/rotina-estudo.jpeg"
     },
     {
-        "id": "3",
+        "id": "2",
         "title": "TI Experient entra com tudo em 2025",
         "time":"Dezembro de 2024",
         "description": `
@@ -65,7 +115,7 @@ export const dataFake = [
         mas que acabou conquistando meu coração e minha carreira.
         <br><br>
         <h2>O primeiro contato: um choque inesperado</h2>
-        Minha trajetória com o Angular começou de forma inusitada em 2020. Fui contratada como web designer em uma empresa 
+        Minha trajetória com o Angular começou de forma inusitada em 2022. Fui contratada como web designer em uma empresa 
         no ramo de materiais de construção. Na entrevista e no anúncio da vaga na <strong>CATCHO</strong>, 
         a descrição da função envolvia trabalhar com um CMS muito familiar para mim: o WordPress, desenvolvido em PHP. 
         No entanto, ao chegar à instituição, descobri que o site era desenvolvido em Angular. O impacto foi imediato: 
@@ -113,19 +163,11 @@ export const dataFake = [
         `,
         "photoCover": "https://images.ctfassets.net/aq13lwl6616q/4wW7nnU5Nuuf9DHIIcO4Zo/8ae7a14d02e637c838d28643c32b8dc7/Angular_zero_to_mastery_.jpeg"
     },
-
     {
-        "id": "2",
+        "id": "1",
         "title": "Maratona Angular em Dezembro",
         "time":"Dezembro/2024",
         "description": "Este conteúdo não chegou a ser escrito, por ter sido publicado na época de produção do Blog.",
         "photoCover": "assets/img/rotina-natalina.jpeg"
-    },
-    {
-        "id": "1",
-        "title": "Dev diz estar otimista com Bootcamp",
-        "time":"Dezembro/2024",
-        "description": "Este conteúdo não chegou a ser escrito, por ter sido publicado na época de produção do Blog.",
-        "photoCover": "assets/img/dev-celia.jpeg"
     },
 ]
