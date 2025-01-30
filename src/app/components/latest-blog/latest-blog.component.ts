@@ -3,7 +3,7 @@ import { Component, ElementRef, AfterViewInit, ViewChild } from '@angular/core';
 @Component({
   selector: 'app-latest-blog',
   templateUrl: './latest-blog.component.html',
-  styleUrls: ['./latest-blog.component.css']
+  styleUrls: ['./latest-blog.component.css', './latest-blog.component.responsive.css']
 })
 export class LatestBlogComponent implements AfterViewInit {
   @ViewChild('cardsContainer', { static: false }) cardsContainer!: ElementRef;
