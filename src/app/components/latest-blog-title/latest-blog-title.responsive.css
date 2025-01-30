@@ -1,0 +1,6 @@
+/* Celular Retrato */
+@media (max-width:600px) and (orientation: portrait) {
+    .container__menu-title > p {
+        margin: 0 2%;
+}
+}
