@@ -12,6 +12,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ContentComponent } from './pages/content/content.component';
 import { NoticeMainComponent } from './components/notice-main/notice-main.component';
 import { AboutComponent } from './pages/about/about.component';
+import { LatestBlogComponent } from './components/latest-blog/latest-blog.component';
+import { LatestBlogTitleComponent } from './components/latest-blog-title/latest-blog-title.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { AboutComponent } from './pages/about/about.component';
     FooterComponent,
     ContentComponent,
     NoticeMainComponent,
-    AboutComponent
+    AboutComponent,
+    LatestBlogComponent,
+    LatestBlogTitleComponent
   ],
   imports: [
     BrowserModule,
