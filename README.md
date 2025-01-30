@@ -1,27 +1,27 @@
-# Blog
+# 🌟 Blog Pessoal - TI Experient 🚀  
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.7.
+Bem-vindo(a) ao **{{blog_name}}**! 🎉 Um cantinho especial onde compartilho minhas aventuras no mundo do desenvolvimento, aprendizados, desafios e, claro, projetos incríveis! 💡✨  
 
-## Development server
+Aqui você vai encontrar:  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+✅ Dicas e truques de programação  
+✅ Experiências de desenvolvimento  
+✅ Divulgação e ilustração de projetos  
+✅ Bastidores das minhas criações  
 
-## Code scaffolding
+Tudo isso feito com muito código, criatividade e café ☕!  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🔗 Acesse Agora  
 
-## Build
+🌍 **Blog:** [{{blog_url}}]({{blog_url}})  
+🖥️ **Portfólio:** [Meu Portfólio Profissional]({{portfolio_url}})  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 💻 Tecnologias Utilizadas  
 
-## Running unit tests
+🚀 **TypeScript**  
+🎨 **HTML & CSS**  
+🔥 **Angular CLI** ([versão {{angular_version}}](https://github.com/angular/angular-cli))  
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+📌 Confira meus projetos no **GitHub** e me acompanhe nessa jornada de aprendizado e inovação!  
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Desenvolvido com carinho por: **Célia Medeiros** 💛  
