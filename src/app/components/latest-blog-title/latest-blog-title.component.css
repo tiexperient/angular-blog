@@ -1,5 +1,5 @@
 .section-divider {
-    width: 50%; /* Define a largura da linha */
+    width: 80%; /* Define a largura da linha */
     height: 2px; /* Define a altura da linha */
     background-color: #fafafa; /* Cor da linha */
     margin: 40px auto; /* Centraliza horizontalmente e adiciona margem superior/inferior */
