@@ -8,7 +8,7 @@
 /* Celular Paisagem */
 @media (max-width:800px) and (orientation: landscape) {
     .cards {
-        width: 90%;
+        width: 80%;
       }
 
 }
