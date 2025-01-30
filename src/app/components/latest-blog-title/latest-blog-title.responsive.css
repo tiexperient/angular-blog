@@ -8,6 +8,6 @@
 /* Celular Paisagem */
 @media (max-width:800px) and (orientation: landscape) {
     .container__menu-title > p {
-        margin: 0 15%;
+        margin: 0 10%;
 }
 }
