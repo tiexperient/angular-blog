@@ -17,7 +17,7 @@ Tudo isso feito com muito código, criatividade e café ☕!
 🔥 **Angular CLI** ([versão 14.0.7](https://github.com/angular/angular-cli))  
 🚀 **TypeScript**  
 🎨 **HTML & CSS**  
-<br><br>
+<br>
 
 ## 🔗 Acesse Agora  
 
