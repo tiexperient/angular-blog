@@ -9,12 +9,12 @@ Aqui você vai encontrar:
 ✅ Divulgação e ilustração de projetos  
 ✅ Bastidores das minhas criações  
 
-Tudo isso feito com muito código, criatividade e café ☕!  
+Tudo isso feito com muito código, criatividade e café ☕!<br>  
 
 ## 🔗 Acesse Agora  
 
 🌍 **Blog:** [Blog Pessoal](https://tiexperient-blog.netlify.app/)  
-👩🏼‍💻 **Portfólio:** [Meu Portfólio Profissional](https://ti-experient.netlify.app/)  
+👩🏼‍💻 **Portfólio:** [Meu Portfólio Profissional](https://ti-experient.netlify.app/)<br>  
 
 ## 💻 Tecnologias Utilizadas  
 
