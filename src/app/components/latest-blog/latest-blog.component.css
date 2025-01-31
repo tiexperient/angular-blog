@@ -20,7 +20,7 @@
   
   .card__inner {
     will-change: transform;
-    background: white;
+    background: rgb(24, 24, 24);
     border-radius: 14px;
     display: flex;
     overflow: hidden;

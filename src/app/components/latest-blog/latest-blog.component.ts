@@ -13,19 +13,51 @@ export class LatestBlogComponent implements AfterViewInit {
     {
       image: 'https://images.unsplash.com/photo-1620207418302-439b387441b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=100',
       title: 'Card Title 1',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta error nam eaque. Eum fuga laborum quos expedita iste saepe similique, unde possimus quia at magnam sed cupiditate? Reprehenderit, harum!'
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
     },
     {
       image: 'https://images.unsplash.com/photo-1620207418302-439b387441b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=100',
       title: 'Card Title 2',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta error nam eaque. Eum fuga laborum quos expedita iste saepe similique, unde possimus quia at magnam sed cupiditate? Reprehenderit, harum!'
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
     },
     {
       image: 'https://images.unsplash.com/photo-1620207418302-439b387441b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=100',
       title: 'Card Title 3',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dicta error nam eaque. Eum fuga laborum quos expedita iste saepe similique, unde possimus quia at magnam sed cupiditate? Reprehenderit, harum!'
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
     }
   ];
+
+  // Função que calcula o valor baseado na porcentagem
+  valueAtPercentage({ from, to, percentage }: { from: number, to: number, percentage: number }) {
+    return from + (to - from) * percentage;
+  }
+
+  // Implementação do ScrollObserver
+  ScrollObserver = {
+    Element: (element: HTMLElement, options: { offsetTop: number, offsetBottom: number }) => {
+      const onScroll = (callback: (data: { percentageY: number }) => void) => {
+        const handleScroll = () => {
+          const rect = element.getBoundingClientRect();
+          const elementHeight = rect.height;
+          const offsetTop = options.offsetTop;
+          const offsetBottom = options.offsetBottom;
+          const elementTop = rect.top + window.scrollY;
+
+          let percentageY = (elementTop - offsetTop) / (window.innerHeight - elementHeight - offsetBottom);
+          percentageY = Math.max(0, Math.min(1, percentageY));
+
+          callback({ percentageY });
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        handleScroll();
+
+        return { onScroll };
+      };
+
+      return { onScroll };
+    }
+  };
 
   ngAfterViewInit(): void {
     const cardsContainer = this.cardsContainer.nativeElement;
@@ -40,21 +72,17 @@ export class LatestBlogComponent implements AfterViewInit {
 
       if (index === cards.length - 1) return;
 
-      const toScale = 1 - (cards.length - 1 - index) * 0.1;
       const nextCard = cards[index + 1];
       const cardInner = card.querySelector<HTMLElement>('.card__inner');
 
       if (nextCard && cardInner) {
-        ScrollObserver.Element(nextCard, {
+        this.ScrollObserver.Element(nextCard, {
           offsetTop,
           offsetBottom: window.innerHeight - card.clientHeight
         }).onScroll(({ percentageY }: { percentageY: number }) => {
-          cardInner.style.transform = `scale(${valueAtPercentage({
-            from: 1,
-            to: toScale,
-            percentage: percentageY
-          })})`;
-          cardInner.style.filter = `brightness(${valueAtPercentage({
+          // Mantendo todos os cards do mesmo tamanho
+          cardInner.style.transform = `scale(1)`;
+          cardInner.style.filter = `brightness(${this.valueAtPercentage({
             from: 1,
             to: 0.6,
             percentage: percentageY
