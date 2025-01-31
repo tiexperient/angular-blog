@@ -14,7 +14,7 @@ Tudo isso feito com muito código, criatividade e café ☕!
 ## 🔗 Acesse Agora  
 
 🌍 **Blog:** [https://tiexperient-blog.netlify.app/](https://tiexperient-blog.netlify.app/)  
-👩🏼‍💻 **Portfólio:** [Meu Portfólio Profissional](https://ti-experient.netlify.app/)  
+👩🏼‍💻 **Meu Portfólio:** [Meu Portfólio Profissional](https://ti-experient.netlify.app/)  
 
 ## 💻 Tecnologias Utilizadas  
 
