@@ -12,17 +12,17 @@ Aqui você vai encontrar:
 Tudo isso feito com muito código, criatividade e café ☕!
 <br><br> 
 
+## 💻 Tecnologias Utilizadas  
+
+🔥 **Angular CLI** ([versão 14.0.7](https://github.com/angular/angular-cli))  
+🚀 **TypeScript**  
+🎨 **HTML & CSS**  
+<br><br>
+
 ## 🔗 Acesse Agora  
 
 🌍 **Blog:** [Blog Pessoal](https://tiexperient-blog.netlify.app/)  
 👩🏼‍💻 **Portfólio:** [Meu Portfólio Profissional](https://ti-experient.netlify.app/)
-<br><br>
-
-## 💻 Tecnologias Utilizadas  
-
-🚀 **TypeScript**  
-🎨 **HTML & CSS**  
-🔥 **Angular CLI** ([versão 14.0.7](https://github.com/angular/angular-cli))  
 
 📌 Confira meus projetos no **GitHub** e me acompanhe nessa jornada de aprendizado e inovação!  
 
