@@ -1,6 +1,46 @@
 export const dataFake = [
     {
         "id": "4",
+        "title": "37 Horas de Código: O Que Aprendi na DIO?",
+        "time":"3 de fevereiro de 2025",
+        "description": `
+        Nos últimos dias, embarquei em um desafio e tanto: um <strong>bootcamp intensivo na DIO</strong> com <strong>37 horas</strong> de muito aprendizado. 
+        Mas, se tem algo que posso afirmar, é que na prática, essas 37 horas se multiplicam – e cada minuto valeu a pena!
+        <br><br>
+        <h2>📌 O que aprendi?</h2>
+        Foram muitos conceitos abordados, e cada um deles contribuiu para fortalecer minha base no desenvolvimento web. 
+        Entre os principais tópicos, destaco: 
+        <br><br>
+        ✅ <strong>Web Components:</strong> Criando componentes reutilizáveis e encapsulados.<br>
+        ✅ <strong>TypeScript:</strong> Melhorando a estrutura e tipagem do código.<br>
+        ✅ <strong>JavaScript Desafios:</strong> Exercícios para aprimorar lógica e performance.<br>
+        ✅ <strong>Lifecycle Hooks:</strong> Controlando o ciclo de vida dos componentes no Angular.<br>
+        ✅ <strong>Single Page Applications (SPA):</strong> Construção de aplicações fluidas e sem recarregamento de página.<br>
+        ✅ <strong>Módulos e Rotas:</strong> Organização eficiente do código e navegação estruturada.<br>
+        ✅ <strong>Services e Pipes:</strong> Manipulação e formatação de dados.<br>
+        ✅ <strong>Guards e Fluxos:</strong> Controle de acessos e proteção de rotas.<br>
+        ✅ <strong>Versionamento de Código (Git):</strong> Boas práticas para trabalho colaborativo.<br>
+        ✅ <strong>Mentorias e Projetos Práticos:</strong> Aplicando o conhecimento adquirido em cenários reais.<br>
+        <br>
+        <h2>🚀 A experiência e os desafios</h2>
+        Participar desse bootcamp foi como subir de nível em um RPG: a cada nova fase, um desafio maior surgia, 
+        mas a evolução era constante. Aprendi que, por mais que os conceitos pareçam complexos no início, 
+        <strong>a prática e a dedicação fazem toda a diferença.</strong>
+        <br>
+        O conhecimento que adquiri aqui reforça minha confiança para seguir criando projetos mais robustos e bem estruturados.
+        <br><br>
+        <h2>🎯 O que vem a seguir?</h2>
+        Agora que essa etapa foi concluída, minha missão é continuar praticando e aplicando tudo o que aprendi. 
+        Quero integrar esses conceitos aos meus projetos e explorar ainda mais o potencial do Angular e do desenvolvimento web!
+        <br>
+        Ah, e se alguém duvidar que completei esse desafio, aqui está a <strong>minha badge de treinadora oficial</strong> 👀🎖️:
+        <br><br>
+        👉 <a href="https://www.dio.me/certificate/7M92FBHJ/share">Meu Certificado da DIO</a>
+        `,
+        "photoCover": "assets/img/angular-dio.jpg"
+    },
+    {
+        "id": "3",
         "title": "Capturando Pokémons com Angular e a PokéAPI",
         "time":"24 de Janeiro de 2025",
         "description": `
@@ -50,7 +90,7 @@ export const dataFake = [
         "photoCover": "assets/img/pokeapi.jpg"
     },
     {
-        "id": "3",
+        "id": "2",
         "title": "Rotina de estudos se faz fundamental",
         "time":"18 de Janeiro de 2025",
         "description": `
@@ -105,7 +145,7 @@ export const dataFake = [
         "photoCover": "assets/img/rotina-estudo.jpeg"
     },
     {
-        "id": "2",
+        "id": "1",
         "title": "TI Experient entra com tudo em 2025",
         "time":"Dezembro de 2024",
         "description": `
@@ -163,6 +203,7 @@ export const dataFake = [
         `,
         "photoCover": "https://images.ctfassets.net/aq13lwl6616q/4wW7nnU5Nuuf9DHIIcO4Zo/8ae7a14d02e637c838d28643c32b8dc7/Angular_zero_to_mastery_.jpeg"
     },
+    /*
     {
         "id": "1",
         "title": "Maratona Angular em Dezembro",
@@ -170,4 +211,5 @@ export const dataFake = [
         "description": "Este conteúdo não chegou a ser escrito, por ter sido publicado na época de produção do Blog.",
         "photoCover": "assets/img/rotina-natalina.jpeg"
     },
+    */
 ]
