@@ -1,9 +1,12 @@
+body {
+    height: 100vh; /* Ocupa toda a tela e não atrapalha o footer */
+}
+
 .container__artigos{
     margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 100vh; /* Ocupa toda a tela e não atrapalha o footer */
 }
 
 .container__projects{

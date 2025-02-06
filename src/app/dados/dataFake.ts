@@ -1,8 +1,10 @@
 export const dataFake = [
     {
         "id": "4",
+        "status": "",
         "title": "37 Horas de Código: O Que Aprendi na DIO?",
         "time":"3 de fevereiro de 2025",
+        "resume": "",
         "description": `
         Nos últimos dias, embarquei em um desafio e tanto: um <strong>bootcamp intensivo na DIO</strong> com <strong>37 horas</strong> de muito aprendizado. 
         Mas, se tem algo que posso afirmar, é que na prática, essas 37 horas se multiplicam – e cada minuto valeu a pena!
@@ -41,8 +43,15 @@ export const dataFake = [
     },
     {
         "id": "3",
+        "status": "projects",
         "title": "Capturando Pokémons com Angular e a PokéAPI",
         "time":"24 de Janeiro de 2025",
+        "resume": `
+                    "Descubra a Pokédex interativa desenvolvida em Angular! Busque seu Pokémon favorito, 
+                    veja sua imagem e tipo com design estiloso e animações. O código está disponível no GitHub para baixar, 
+                    explorar e contribuir. Acesse o repositório e embarque nessa aventura! 
+                    Dá para adaptar ao seu estilo, se preferir!
+                `,
         "description": `
         Se você ama Pokémons e é viciado em códigos, prepare-se! Hoje vou mostrar como criei um app Angular que transforma seu 
         navegador em uma Pokédex interativa.
@@ -91,8 +100,10 @@ export const dataFake = [
     },
     {
         "id": "2",
+        "status": "",
         "title": "Rotina de estudos se faz fundamental",
         "time":"18 de Janeiro de 2025",
+        "resume": "",
         "description": `
         Nos dias atuais, o mercado de tecnologia tem se tornado cada vez mais competitivo. Como aspirante a Front-end Developer 
         especializada em Angular, percebo que a chave para me destacar nesse ambiente desafiador é uma rotina de estudos bem 
@@ -146,8 +157,13 @@ export const dataFake = [
     },
     {
         "id": "1",
+        "status": "old-articles",
         "title": "TI Experient entra com tudo em 2025",
         "time":"Dezembro de 2024",
+        "resume": `
+                    De rejeição à especialização, minha jornada com Angular tomou um rumo inesperado. 
+                    Descubra como um obstáculo virou minha maior oportunidade!
+                `,
         "description": `
         O mundo da tecnologia está em constante evolução, e acompanhar suas transformações é um desafio que exige dedicação e 
         coragem para recomeçar. A minha jornada com o Angular é um exemplo de como até os maiores desafios podem se transformar 

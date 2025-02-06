@@ -14,6 +14,8 @@ import { NoticeMainComponent } from './components/notice-main/notice-main.compon
 import { AboutComponent } from './pages/about/about.component';
 import { LatestBlogComponent } from './components/latest-blog/latest-blog.component';
 import { LatestBlogTitleComponent } from './components/latest-blog-title/latest-blog-title.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { ProjectsTitleComponent } from './components/projects-title/projects-title.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { LatestBlogTitleComponent } from './components/latest-blog-title/latest-
     NoticeMainComponent,
     AboutComponent,
     LatestBlogComponent,
-    LatestBlogTitleComponent
+    LatestBlogTitleComponent,
+    ProjectsComponent,
+    ProjectsTitleComponent
   ],
   imports: [
     BrowserModule,
