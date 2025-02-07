@@ -21,9 +21,8 @@ Tudo isso feito com muito código, criatividade e café ☕!
 
 ## 🔗 Acesse Agora  
 
-🌍 **Blog:** [Blog Pessoal](https://tiexperient-blog.netlify.app/)  
-👩🏼‍💻 **Portfólio:** [Meu Portfólio Profissional](https://ti-experient.netlify.app/)<br>
-📢 **Blog:** [Meu Blog Pessoal](https://tiexperient-blog.netlify.app/)   
+📢 **Blog:** [Blog Pessoal](https://tiexperient-blog.netlify.app/)  
+👩🏼‍💻 **Portfólio:** [Meu Portfólio Profissional](https://ti-experient.netlify.app/)
 
 
 📌 Confira meus projetos no **GitHub** e me acompanhe nessa jornada de aprendizado e inovação!  
