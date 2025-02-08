@@ -1,11 +1,11 @@
 /* Celular Retrato */
 @media (max-width:600px) and (orientation: portrait) {
     .container__menu-title > h1{
-        font-size: 40px;
+        font-size: 35px;
     } 
 
     .blackout {
-        margin-right: 1px;
+        margin-right: 10px;
     }
 }
 
