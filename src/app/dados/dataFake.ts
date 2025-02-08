@@ -1,7 +1,72 @@
 export const dataFake = [
     {
+        "id": "5",
+        "old_articles": "",
+        "projects": "",
+        "title": "Minha Play Station Store em Angular",
+        "time":"9 de fevereiro de 2025",
+        /*
+        "resume": `
+                    Uma loja fictícia de games com recursos incríveis, animações envolventes e interatividade total. 
+                    Descubra novos jogos, salve seus favoritos, confira avaliações e categorias, veja compatibilidade e valores, 
+                    e mergulhe nessa experiência imersiva feita para apaixonados por games!
+                `,
+        */
+        "resume": `
+        Uma loja fictícia de games cheia de recursos incríveis, animações envolventes e uma experiência imersiva! Quer saber mais? Vem conferir!
+                `,
+        "description": `
+        Criar projetos próprios é uma das melhores formas de aprender e evoluir como desenvolvedor. 
+        E quando o assunto é <strong>jogos,</strong> a diversão fica ainda maior! Um dos meus últimos desafios foi desenvolver a 
+        <strong>Play Station Store,</strong> uma plataforma fictícia para venda de games que me permitiu aprimorar diversas habilidades 
+        técnicas e explorar novas abordagens na estilização e responsividade. E, claro, me divertir bastante no processo! 😄
+        <br><br>
+        <h2>🚀 Funcionalidades e Evolução do Projeto</h2>
+        Inicialmente, o projeto contava apenas com algumas classificações básicas, <strong>como valor, compatibilidade 
+        e destaque</strong> (Novo, Exclusivo, O Melhor do Ano, Digital, etc). Mas, como um bom desenvolvedor nunca se 
+        contenta com o básico, decidi incrementar e deixar a experiência ainda mais imersiva! 🎯
+        <br><br>
+        Agora, o projeto conta com:
+        <br><br>
+        - ⭐ <strong>Botão de jogos favoritos:</strong> para salvar aquele game incrível que você quer jogar mais tarde.
+        <br>
+        - 👶 <strong>Idade mínima recomendada:</strong> porque ninguém quer ver um pequeno jogando um terrorzão de madrugada, né? 😅
+        <br>
+        - 🏆 <strong>Avaliação do jogo:</strong> descubra se o game é realmente bom ou só hype!
+        <br>
+        - 🎭 <strong>Categorias:</strong> ação, aventura, estratégia, e muito mais!
+        <br>
+        - 🎮 <strong>Quantidade de jogadores permitida:</strong> single player, multiplayer local ou online? Agora você sabe!
+        <br>
+        - 🕹️ <strong>Compatibilidade:</strong> descubra se o jogo roda no PS4, PS5 ou nos dois.
+        <br>
+        - 💰 <strong>Valores:</strong> porque ninguém gosta de surpresas na hora do pagamento. 
+        <br><br>
+        <h2>💡 Aprendizado e Impacto</h2>
+        Esse projeto foi um grande laboratório para aprimorar minhas habilidades em <strong>CSS avançado e responsividade.</strong> No início, 
+        os cards possuíam apenas um efeito de zoom ao passar o mouse, mas eu queria algo mais dinâmico e envolvente. Então, 
+        refinei a estilização, adicionando animações fluídas e transições que fazem os jogos praticamente saltarem da tela! ✨
+        <br>
+        Além disso, a estruturação do código e a implementação dos dados foram organizadas de maneira escalável, 
+        garantindo uma experiência fluida tanto para usuários quanto para desenvolvedores que quiserem contribuir 
+        com melhorias no projeto. 🛠️
+        <br><br>
+        <h2>🔗 Explore e Contribua!</h2>
+        <br>
+        Se você quer conferir o projeto de perto, ele está disponível online:<br>
+        🎮 <a href="https://tiexperient-play-station-store.netlify.app/">Play Station Store - Versão Rodando</a>
+        <br><br>
+        E se tiver interesse em explorar o código ou até contribuir, o repositório está aberto no GitHub:<br>
+        💻 <a href="https://github.com/tiexperient/angular-game-store">GitHub - Play Station Store</a>
+        <br><br>
+        Sinta-se à vontade para testar, sugerir melhorias e, claro, <strong>se inspirar e se divertir! 🚀🔥</strong>
+        `,
+        "photoCover": "assets/img/play-station-angular.png"
+    },
+    {
         "id": "4",
-        "status": "",
+        "old_articles": "",
+        "projects": "",
         "title": "37 Horas de Código: O Que Aprendi na DIO?",
         "time":"3 de fevereiro de 2025",
         "resume": "",
@@ -43,7 +108,8 @@ export const dataFake = [
     },
     {
         "id": "3",
-        "status": "projects",
+        "old_articles": "",
+        "projects": "yes",
         "title": "Capturando Pokémons com Angular e a PokéAPI",
         "time":"24 de Janeiro de 2025",
         "resume": `
@@ -100,10 +166,13 @@ export const dataFake = [
     },
     {
         "id": "2",
-        "status": "",
+        "old_articles": "",
+        "projects": "",
         "title": "Rotina de estudos se faz fundamental",
         "time":"18 de Janeiro de 2025",
-        "resume": "",
+        "resume": `
+        Manter uma rotina de estudos disciplinada é essencial para crescer como Front-end Developer Angular. Descubra minha jornada e dicas para se destacar!
+                `,
         "description": `
         Nos dias atuais, o mercado de tecnologia tem se tornado cada vez mais competitivo. Como aspirante a Front-end Developer 
         especializada em Angular, percebo que a chave para me destacar nesse ambiente desafiador é uma rotina de estudos bem 
@@ -157,7 +226,8 @@ export const dataFake = [
     },
     {
         "id": "1",
-        "status": "old-articles",
+        "old_articles": "yes",
+        "projects": "",
         "title": "TI Experient entra com tudo em 2025",
         "time":"Dezembro de 2024",
         "resume": `
@@ -222,8 +292,10 @@ export const dataFake = [
     /*
     {
         "id": "1",
+        "status": "",
         "title": "Maratona Angular em Dezembro",
         "time":"Dezembro/2024",
+        "resume": "",
         "description": "Este conteúdo não chegou a ser escrito, por ter sido publicado na época de produção do Blog.",
         "photoCover": "assets/img/rotina-natalina.jpeg"
     },

@@ -14,3 +14,8 @@ body{
 a{
     text-decoration: none;
 }
+
+/* Título luminoso */ 
+:root {
+    --glow-color: hsl(186 100% 69%);
+}

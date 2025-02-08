@@ -15,10 +15,20 @@ code {
     monospace;
 }
 
+.nft-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Espaçamento entre os cards */
+  justify-content: center;
+}
+
 .nft{
+  width: calc(33.33% - 16px); /* Três cards por linha */
   user-select:none;
   max-width: 300px;
-  margin: 3rem auto;
+  /*margin: 3rem auto;*/
+  margin-top: 50px;
+  margin-bottom: 50px;
   border: 1px solid #ffffff22;
   background-color: #282c34;
   background: linear-gradient(0deg, rgba(40,44,52,1) 0%, rgba(17,0,32,.5) 100%);
@@ -45,7 +55,7 @@ code {
     .tokenImage{
       border-radius: .5rem;
       max-width: 100%;
-      height: 250px;
+      height: 150px;
       object-fit: cover;
     }
     .description{
@@ -126,5 +136,18 @@ code {
       top: -100%;
       left: 200%;
     }
+  }
+}
+
+/* Responsivo para telas menores */
+@media (max-width: 768px) {
+  .nft {
+    width: calc(50% - 16px); /* Dois cards por linha */
+  }
+}
+
+@media (max-width: 480px) {
+  .nft {
+    width: 100%; /* Um card por linha */
   }
 }

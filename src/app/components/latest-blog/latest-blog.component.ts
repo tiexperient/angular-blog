@@ -14,7 +14,7 @@ export class LatestBlogComponent implements OnInit {
 
   ngOnInit(): void {
     // Filtrando apenas os registros com status "antigos"
-    this.blogs = dataFake.filter(item => item.status === "old-articles").map(item => ({
+    this.blogs = dataFake.filter(item => item.old_articles === "yes").map(item => ({
       image: item.photoCover,
       title: item.title,
       resume: item.resume,

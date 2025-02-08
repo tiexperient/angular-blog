@@ -14,7 +14,7 @@ export class ProjectsComponent implements AfterViewInit, OnInit {
 
   ngOnInit(): void {
     // Filtrando apenas os registros com status "projects"
-    this.cards = dataFake.filter(item => item.status === "projects").map(item => ({
+    this.cards = dataFake.filter(item => item.projects === "yes").map(item => ({
       image: item.photoCover,
       title: item.title,
       resume: item.resume,
