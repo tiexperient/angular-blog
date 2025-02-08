@@ -60,7 +60,7 @@ code {
     }
     .description{
       margin: .5rem 0;
-      color: #a89ec9;
+      color:gray;
     }
     .tokenInfo{
       display: flex;
