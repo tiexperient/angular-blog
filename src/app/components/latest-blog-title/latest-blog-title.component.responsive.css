@@ -3,6 +3,10 @@
             .container__menu-title > p {
                 margin: 0 5%;
     }
+
+    .container__menu-title > h1{
+        font-size: 2rem;
+    }
 }
 
 /* Celular Paisagem */
