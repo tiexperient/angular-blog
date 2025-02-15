@@ -1,5 +1,71 @@
 export const dataFake = [
     {
+        "id": "6",
+        "old_articles": "",
+        "projects": "",
+        "title": "Uma Revolução Saborosa com Angular",
+        "time":"16 de fevereiro de 2025",
+        "resume": `
+        Uma loja fictícia de games cheia de recursos incríveis, animações envolventes e uma experiência imersiva! Quer saber mais? Vem conferir!
+                `,
+        "description": `
+        Há três anos, aceitei um desafio na Digital Innovation One (DIO) e criei uma versão especial da Netflix. Mas, 
+        em vez de filmes e séries, meu projeto exibia receitas! O <strong>Food Flix</strong> nasceu como um repositório pessoal 
+        das receitas que eu mais gostava, tudo estruturado com <strong>HTML, CSS e JavaScript,</strong> e com um toque especial 
+        de responsividade.
+        <br><br>
+        Para dar identidade ao projeto, trabalhei no <strong>Photoshop</strong> para o tratamento das capas das receitas e usei 
+        o <strong>Illustrator</strong> para criar a logo <strong>Food Flix.</strong> O resultado foi um site lindo, intuitivo e, 
+        até hoje, um dos meus projetos mais acessados! 🌟
+        <br><br>
+        🔗 <strong>Repositório da primeira versão: </strong><a href="https://github.com/tiexperient/netfood_dio">GitHub - Food Flix</a>
+        <br>
+        🌐 <strong>Demo online: </strong><a href="https://my-food-flix.netlify.app/">Food Flix 1.0</a>
+        <br><br>
+        <h2>Food Flix 2.0: Agora com Angular e Muito Mais!</h2>
+        Com minha evolução no desenvolvimento e o domínio do <strong>Angular, TypeScript, Bootstrap e CSS,</strong> 
+        decidi levar o Food Flix para um novo nível. Assim nasceu o <strong>Food Flix 2.0,</strong> uma versão muito mais 
+        dinâmica, funcional e interativa! 🚀
+        <br><br>
+        <h2>O que mudou?</h2>
+        A primeira versão do site era basicamente um catálogo de links externos para receitas. Já o <strong>Food Flix 2.0</strong> 
+        veio para revolucionar a experiência do usuário! Agora, além de exibir a receita, o site permite:
+        <br><br>
+        ✅ <strong>Introdução convidativa:</strong> Apresentação amigável para cada receita.<br>
+        ✅ <strong>Categorias e subcategorias:</strong> Doces, salgados, caldos, sobremesas, receitas zero lactose e mais!<br>
+        ✅ <strong>Interação com os ingredientes:</strong> Agora é possível marcar os ingredientes conforme são separados 
+        no preparo.<br>
+        ✅ <strong>Informações detalhadas:</strong> Quantidade de porções, tempo de preparo e instruções bem organizadas.<br>
+        ✅ <strong>Botão inteligente:</strong> Só aparece quando há um link válido no banco interno da receita.<br>
+        ✅ <strong>Navegação inusitada:</strong> Um botão em formato de panela que frita um ovo ao ser acionado! 🍳🔥
+        <br><br>
+        Além disso, a experiência visual herdada da primeira versão continua, mas agora com uma estrutura muito mais 
+        poderosa e moderna, graças ao <strong>Angular.</strong>
+        <br><br>
+        🔗 <strong>Repositório do Food Flix 2.0:</strong><a href="https://github.com/tiexperient/angular-food-flix"> GitHub - Angular Food Flix</a><br>
+        🌐 <strong>Demo online:</strong><a href="https://tiexperient-my-food-flix.netlify.app/"> Food Flix 2.0</a>
+        <br><br>
+        <h2>Tecnologias Utilizadas</h2>
+        <br>
+        🟢 <strong>Angular –</strong> Para estruturar e dinamizar a aplicação.<br>
+        🟣 <strong>TypeScript –</strong> Tipagem forte para um código mais seguro e organizado.<br>
+        🔵 <strong>Bootstrap –</strong> Layout responsivo e estiloso.<br>
+        🟡 <strong>CSS avançado –</strong> Detalhes visuais que fazem toda a diferença.
+        <br><br>
+        <h2>Conclusão</h2>
+        Criar o <strong>Food Flix 2.0</strong> foi sem sombra de dúvida uma experiência incrível! Unir a paixão por desenvolvimento com algo 
+        que faz parte do dia a dia das pessoas (a comida!) tornou o projeto ainda mais especial. 😍
+        <br><br>
+        Agora, a plataforma não apenas armazena receitas, mas permite que os usuários interajam com elas de uma maneira 
+        mais intuitiva e divertida. E, claro, o toque especial da <strong>panela fritando um ovo</strong> deixa tudo 
+        ainda mais único! 🍳🔥
+        <br><br>
+        Se você também ama tecnologia e culinária, venha explorar o <strong>Food Flix 2.0</strong> e aproveite essa 
+        experiência saborosa! 💛
+        `,
+        "photoCover": "assets/img/play-station-angular.png"
+    },
+    {
         "id": "5",
         "old_articles": "",
         "projects": "",
@@ -166,7 +232,7 @@ export const dataFake = [
     },
     {
         "id": "2",
-        "old_articles": "",
+        "old_articles": "yes",
         "projects": "",
         "title": "Rotina de estudos se faz fundamental",
         "time":"18 de Janeiro de 2025",
