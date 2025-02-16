@@ -35,9 +35,9 @@
         margin-top: 0;
     }
 
-    .container__notice-main__separator{
-        margin-top: 10px;
-    }   
+    .container__small-card__separator{
+        display: none;   
+    } 
 }
 
 /* Celular Paisagem */

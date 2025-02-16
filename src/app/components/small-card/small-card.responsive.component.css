@@ -37,7 +37,7 @@
     }
     
     .container__small-card__separator{
-        margin-top: 10px;   
+        display: none;   
     }
 }
 
