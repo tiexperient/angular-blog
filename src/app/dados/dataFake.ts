@@ -63,7 +63,7 @@ export const dataFake = [
         Se você também ama tecnologia e culinária, venha explorar o <strong>Food Flix 2.0</strong> e aproveite essa 
         experiência saborosa! 💛
         `,
-        "photoCover": "assets/img/play-station-angular.png"
+        "photoCover": "assets/img/food-flix.png"
     },
     {
         "id": "5",
