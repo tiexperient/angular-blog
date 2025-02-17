@@ -50,7 +50,7 @@ export const dataFake = [
         🟢 <strong>Angular –</strong> Para estruturar e dinamizar a aplicação.<br>
         🟣 <strong>TypeScript –</strong> Tipagem forte para um código mais seguro e organizado.<br>
         🔵 <strong>Bootstrap –</strong> Layout responsivo e estiloso.<br>
-        🟡 <strong>CSS avançado –</strong> Detalhes visuais que fazem toda a diferença.
+        🟡 <strong>HTML e CSS avançado –</strong> Detalhes visuais que fazem toda a diferença.
         <br><br>
         <h2>Conclusão</h2>
         Criar o <strong>Food Flix 2.0</strong> foi sem sombra de dúvida uma experiência incrível! Unir a paixão por desenvolvimento com algo 
