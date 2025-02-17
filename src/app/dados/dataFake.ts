@@ -23,7 +23,7 @@ export const dataFake = [
         🌐 <strong>Demo online: </strong><a href="https://my-food-flix.netlify.app/">Food Flix 1.0</a>
         <br><br>
         <h2>Food Flix 2.0: Agora com Angular e Muito Mais!</h2>
-        Com minha evolução no desenvolvimento e o domínio do <strong>Angular, TypeScript, Bootstrap e CSS,</strong> 
+        Com minha evolução no desenvolvimento e o domínio do <strong>Angular, TypeScript e Bootstrap</strong> 
         decidi levar o Food Flix para um novo nível. Assim nasceu o <strong>Food Flix 2.0,</strong> uma versão muito mais 
         dinâmica, funcional e interativa! 🚀
         <br><br>
