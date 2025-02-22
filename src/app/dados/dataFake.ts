@@ -245,9 +245,9 @@ export const dataFake = [
         "old_articles": "yes",
         "projects": "yes",
         "title": "Capturando Pokémons com Angular e a PokéAPI",
-        "time":"24 Jan de 2025",
+        "time":"24 de Janeiro de 2025",
         "resume": `
-        Explore a Pokédex interativa em Angular! Busque Pokémon, veja imagens, tipos e animações.
+Explore a Pokédex interativa em Angular! Busque Pokémon, veja imagens, tipos e animações.
                 `,
         "description": `
         Se você ama Pokémons e é viciado em códigos, prepare-se! Hoje vou mostrar como criei um app Angular que transforma seu 
@@ -300,7 +300,7 @@ export const dataFake = [
         "old_articles": "yes",
         "projects": "",
         "title": "Rotina de estudos se faz fundamental",
-        "time":"18 Jan de 2025",
+        "time":"18 de Janeiro de 2025",
         "resume": `
         Manter uma rotina de estudos disciplinada é essencial para crescer como Front-end Developer Angular. Descubra minha jornada e dicas para se destacar!
                 `,
@@ -360,7 +360,7 @@ export const dataFake = [
         "old_articles": "yes",
         "projects": "",
         "title": "TI Experient entra com tudo em 2025",
-        "time":"Dez de 2024",
+        "time":"Dezembro de 2024",
         "resume": `
                     De rejeição à especialização, minha jornada com Angular tomou um rumo inesperado. 
                     Descubra como um obstáculo virou minha maior oportunidade!
