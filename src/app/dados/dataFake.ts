@@ -1,5 +1,72 @@
 export const dataFake = [
     {
+        "id": "7",
+        "old_articles": "",
+        "projects": "",
+        "title": "Chatbot Angular no atendimento ao público",
+        "time":"23 de fevereiro de 2025",
+        "resume": `
+                    Já imaginou pedir pizza de forma simples, escolhendo apenas entre opções numeradas, 
+                    sem blá, blá, blá? Transformei isso em realidade! Com Angular, com um chatbot para 
+                    automatizar pizzarias. Continue lendo!
+                `,
+        "description": `
+        Imagine um mundo onde pedir pizza é tão fácil quanto enviar um simples "Quero uma de calabresa!" pelo WhatsApp. 
+        Agora pare de imaginar, porque eu tornei isso realidade! Com a magia do Angular, a eficiência do Bootstrap, 
+        o poder do EmailJS e uma API em PHP com MySQL, criei um chatbot capaz de transformar qualquer pizzaria em um 
+        negócio altamente tecnológico e automatizado. Quer saber como eu fiz isso? Então pegue sua fatia de pizza 
+        favorita e continue lendo! 🍕
+        <br><br>
+        <h2>Como Desenvolvi o Chatbot Usando Angular 🤖</h2>
+        Criar um chatbot em Angular foi uma experiência incrível! Explorei <strong>services</strong> de maneira intensa 
+        para criar uma estrutura robusta e modular, garantindo que cada interação do usuário fosse tratada com precisão. 
+        Meu chatbot não só recebe os pedidos, mas também sugere sabores, pode informar promoções do dia e responder 
+        dúvidas frequentes dos clientes.
+        <br><br>
+        Quer ver o chatbot em ação? Acesse a <strong>demo funcional</strong> aqui:
+        <a href="https://tiexperient-chatbot.netlify.app/"> Chatbot Pizzaria</a>
+        <br><br>
+        <h2>Conectando Tudo com WhatsApp Web 📲</h2>
+        O WhatsApp é essencial para negócios, então integrei o chatbot com a API na versão gratuita do WhatsApp Web. Agora, 
+        assim que o cliente finaliza o pedido, o dono da pizzaria recebe uma mensagem automática,
+        com todos os detalhes. Simples, rápido e eficiente!
+        <br><br>
+        <h2>Levando a Experiência Além: EmailJS 📧</h2>
+        Para garantir que nenhum pedido se perca, implementei o <strong>EmailJS,</strong> que envia uma cópia 
+        do pedido diretamente para o e-mail do dono da pizzaria. Isso organiza os pedidos e evita erros, 
+        melhorando a experiência tanto para o cliente quanto para a equipe da pizzaria.
+        <br><br>
+        <h2>Armazenando Tudo com PHP e MySQL 🛠️</h2>
+        Para aprimorar ainda mais as possibilidades na coleta de informação, criei uma API em PHP que armazena todas as conversas em um banco de dados 
+        <strong>MySQL.</strong> Com isso, o dono da pizzaria pode acessar um sistema para verificar pedidos anteriores e pendentes, 
+        analisar tendências de consumo e até oferecer promoções personalizadas para os clientes mais fiéis. 
+        Essa automação proporciona um atendimento mais ágil e inteligente.
+        <br><br>
+        Aos leitores desenvolvedores, vale ressaltar que, embora o projeto esteja no meu <strong>GitHub,</strong> o repositório foi configurado como privado, 
+        pois precisei utilizar credenciais sensíveis para garantir o funcionamento adequado da API. Como essas informações 
+        não podem ser compartilhadas publicamente, optei por essa configuração para manter a segurança do sistema, o que impede 
+        acesso ao seu código fonte.
+        <br><br>
+        <h2>O Céu é o Limite! ☁️🚀</h2>
+        Depois de desenvolver esse chatbot, percebi que suas aplicações vão muito além de uma pizzaria. 
+        Ele pode ser usado em diversas áreas:
+        <br><br>
+        🔹 <strong>Marketing –</strong> Pesquisas de NPS para medir a satisfação do cliente;<br>
+        🔹 <strong>RH –</strong> Pesquisas de clima organizacional, entrevistas interativas de desligamentos e captação de currículos;<br>
+        🔹 <strong>Financeiro –</strong> Emissão de boletos e consultas de débitos, como já praticadas pelas Empresas 
+            Havan, Natura e Universidade Unip;<br>
+        🔹 <strong>TI –</strong> Sistema de chamados e suporte técnico automatizado;<br>
+        🔹 <strong>SAC –</strong> Registro de solicitações, reclamações, elogios e dúvidas;<br>
+        🔹 <strong>Comercial –</strong> Atendimento automatizado, vendas e suporte ao cliente;<br>
+        🔹 <strong>Logística –</strong> Rotas de mercadorias em trânsito.
+        <br><br>
+        Com tantas possibilidades, ficou claro para mim que a automação com <strong>chatbots</strong> não só veio para ficar, 
+        mas também pode tornar o atendimento mais humanizado e eficiente. E aí, já pensou em como um chatbot pode transformar 
+        seu negócio? 🚀
+        `,
+        "photoCover": "assets/img/chatbot-angular.png"
+    },
+    {
         "id": "6",
         "old_articles": "",
         "projects": "",
@@ -135,7 +202,8 @@ export const dataFake = [
         "projects": "",
         "title": "37 Horas de Código: O Que Aprendi na DIO?",
         "time":"3 de fevereiro de 2025",
-        "resume": "",
+        "resume": `Um bootcamp intensivo com conceitos incríveis em TypeScript e Angular. 
+                    Saiba como essa experiência transformou minha visão sobre desenvolvimento web.`,
         "description": `
         Nos últimos dias, embarquei em um desafio e tanto: um <strong>bootcamp intensivo na DIO</strong> com <strong>37 horas</strong> de muito aprendizado. 
         Mas, se tem algo que posso afirmar, é que na prática, essas 37 horas se multiplicam – e cada minuto valeu a pena!
@@ -174,15 +242,12 @@ export const dataFake = [
     },
     {
         "id": "3",
-        "old_articles": "",
+        "old_articles": "yes",
         "projects": "yes",
         "title": "Capturando Pokémons com Angular e a PokéAPI",
         "time":"24 de Janeiro de 2025",
         "resume": `
-                    "Descubra a Pokédex interativa desenvolvida em Angular! Busque seu Pokémon favorito, 
-                    veja sua imagem e tipo com design estiloso e animações. O código está disponível no GitHub para baixar, 
-                    explorar e contribuir. Acesse o repositório e embarque nessa aventura! 
-                    Dá para adaptar ao seu estilo, se preferir!
+Explore a Pokédex interativa em Angular! Busque Pokémon, veja imagens, tipos e animações.
                 `,
         "description": `
         Se você ama Pokémons e é viciado em códigos, prepare-se! Hoje vou mostrar como criei um app Angular que transforma seu 
