@@ -1,5 +1,72 @@
 export const dataFake = [
     {
+        "id": "8",
+        "old_articles": "",
+        "projects": "",
+        "title": "Avaliação de Clima Organizacional em Angular",
+        "time":"2 de março de 2025",
+        "resume": `
+                    Um ambiente de trabalho positivo faz toda a diferença! Descubra como avaliar a satisfação 
+                    da sua equipe de forma interativa e tecnológica, gerando insights valiosos para melhorar 
+                    o clima organizacional e impulsionar a produtividade.
+                `,
+        "description": `
+        A satisfação dos colaboradores é um dos fatores essenciais para o sucesso de qualquer empresa. 
+        Afinal, um ambiente de trabalho saudável e motivador impacta diretamente na produtividade e na retenção de talentos. 
+        Mas como medir esse clima organizacional de forma eficiente?
+        <br><br>
+        Foi com esse desafio em mente que desenvolvi o <strong>NPS - Clima Organizacional,</strong> um projeto dinâmico e 
+        interativo criado com <strong>Angular, TypeScript, HTML e CSS avançado.</strong> A proposta é oferecer uma ferramenta 
+        intuitiva que permite avaliar a satisfação da equipe e fornecer insights valiosos ao RH.
+        <br><br>
+        <h2>☕ Como funciona o NPS?</h2>
+        O NPS é estruturado em <strong>16 perguntas,</strong> cada uma com <strong>6 opções de resposta,</strong> 
+        permitindo uma análise detalhada da percepção dos colaboradores. A partir das respostas, o sistema classifica 
+        o clima organizacional em três níveis:
+        <br><br>
+        🔴 <strong>Clima Organizacional Insatisfatório -</strong> Alerta máximo! Indica problemas significativos que 
+        podem levar à desmotivação e até à perda de talentos.
+        <br>
+        🟠 <strong>Clima Organizacional Moderado em Alerta -</strong> Sinal de atenção! Há pontos de melhoria que, 
+        se ajustados, podem evitar uma queda na produtividade.
+        <br>
+        🟢 <strong>Clima Organizacional Satisfatório -</strong> Excelente! O ambiente de trabalho é positivo e favorece 
+        o engajamento da equipe.
+        <br><br>
+        <h2>🚀 Funcionalidades que fazem a diferença</h2>
+        <br>
+        ✅ <strong>Interface moderna e interativa:</strong> Utilizei efeitos visuais no CSS para tornar a experiência 
+        do usuário mais envolvente. Os botões possuem um efeito de aurora boreal e, ao serem clicados, se iluminam, 
+        proporcionando uma interação diferenciada. ✨
+        <br>
+        ✅ <strong>Envio de resultados para o RH:</strong> As respostas podem ser armazenadas em um banco de dados ou 
+        enviadas diretamente para o e-mail oficial do RH, facilitando a análise e a tomada de decisão.
+        <br>
+        ✅ <strong>Tecnologia robusta:</strong> Criado com <strong>Angular e TypeScript,</strong> o sistema garante segurança, 
+        eficiência e facilidade de manutenção.
+        <br>
+        ✅ <strong>Totalmente responsivo:</strong> O projeto foi desenvolvido levando em conta a responsividade, 
+        garantindo uma experiência fluida e adaptada para diferentes dispositivos, desde desktops até smartphones. 📱💻
+        <br><br>
+        <h2>🌐 Experimente agora!</h2>
+        <br>
+        Quer ver o NPS em ação? Confira a <strong>versão demo</strong> e explore todas as funcionalidades:
+        <br>
+        <a href="https://tiexperient-disc.netlify.app/">🔗 Acesse o Demo</a>
+        <br><br>
+        O código-fonte também está disponível no meu GitHub:
+        <br>
+        <a href="https://github.com/tiexperient/angular-disc">🔗 Repositório no GitHub</a>
+        <br><br>
+        <h2>🎯 Conclusão</h2>
+        Com o <strong>NPS - Clima Organizacional,</strong> as empresas podem obter insights valiosos sobre a satisfação 
+        dos colaboradores, ajudando a criar um ambiente de trabalho mais produtivo e harmonioso.
+        <br><br>
+        Se você busca uma solução moderna para avaliar e melhorar o clima organizacional, esta ferramenta é para você! 💡
+        `,
+        "photoCover": "assets/img/nps-rh-angular.png"
+    },
+    {
         "id": "7",
         "old_articles": "",
         "projects": "",
@@ -198,11 +265,11 @@ export const dataFake = [
     },
     {
         "id": "4",
-        "old_articles": "",
+        "old_articles": "yes",
         "projects": "",
         "title": "37 Horas de Código: O Que Aprendi na DIO?",
         "time":"3 de fevereiro de 2025",
-        "resume": `Um bootcamp intensivo com conceitos incríveis em TypeScript e Angular. 
+        "resume": `Um bootcamp intensivo com conceitos incríveis em TypeScript, Angular e uso de APIs. 
                     Saiba como essa experiência transformou minha visão sobre desenvolvimento web.`,
         "description": `
         Nos últimos dias, embarquei em um desafio e tanto: um <strong>bootcamp intensivo na DIO</strong> com <strong>37 horas</strong> de muito aprendizado. 
@@ -242,12 +309,12 @@ export const dataFake = [
     },
     {
         "id": "3",
-        "old_articles": "yes",
+        "old_articles": "",
         "projects": "yes",
         "title": "Capturando Pokémons com Angular e a PokéAPI",
         "time":"24 de Janeiro de 2025",
         "resume": `
-Explore a Pokédex interativa em Angular! Busque Pokémon, veja imagens, tipos e animações.
+        Explore a Pokédex interativa em Angular! Busque Pokémon, veja imagens, tipos e animações.
                 `,
         "description": `
         Se você ama Pokémons e é viciado em códigos, prepare-se! Hoje vou mostrar como criei um app Angular que transforma seu 
