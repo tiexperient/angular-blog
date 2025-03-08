@@ -1,3 +1,10 @@
+/* Desktop 1280X768 */
+@media (max-height: 768px) {
+    .container__content{
+        height: 250vh;
+    }
+  }
+
 /* Celular Retrato */
 @media screen and (max-width:600px) and (orientation: portrait) {
     .container__content{

@@ -14,7 +14,7 @@
         <h1 class="card__title">
           <a [routerLink]="['/content', card.id]">{{ card.title }}</a>
         </h1><br>
-        <p class="card__description">{{ card.resume }}</p>
+        <p class="card__description" [innerHTML]="card.resume"></p>
       </div>
     </div>
   </div>

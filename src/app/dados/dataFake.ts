@@ -1,5 +1,63 @@
 export const dataFake = [
     {
+        "id": "9",
+        "old_articles": "",
+        "projects": "",
+        "title": "Previsão do Tempo em Brasília com Angular ☕️✨",
+        "time":"2 de março de 2025",
+        "resume": `
+                        Quer saber como construí um app em Angular que exibe a previsão do tempo em Brasília de 
+                        forma interativa e dinâmica? Descubra como usei a OpenWeatherMap e criei uma experiência 
+                        visual incrível!
+                `,
+        "description": `
+        Se você ama tecnologia e também gosta de estar sempre preparado para qualquer mudança no clima 
+        (porque né, Brasília é cheia de surpresas ☀️🌧️🌨️), então vai curtir o meu novo aplicativo feito em 
+        <strong>Angular!</strong>
+        <br><br>
+        <h2>🌦️ O que esse app faz?</h2>
+        Este aplicativo exibe a <strong>previsão do tempo em Brasília</strong> de um jeito bonito e funcional! 
+        Além do clima para hoje, ele também traz as previsões para os próximos <strong>quatro dias,</strong> 
+        ajudando você a decidir se leva guarda-chuva ou se é dia de tomar muito líquido por causa da secura.
+        <br><br>
+        <strong>Temperatura</strong> atual e máxima/mínima do dia 🌡️ <br>
+        <strong>Velocidade do vento,</strong> porque ninguém quer ser pego de surpresa com um vendaval! 🌬️ <br>
+        <strong>Umidade do ar,</strong> essencial para os alérgicos e amantes de hidratação 🧐 <br>
+        <strong>Precipitação,</strong> para saber se vai precisar de capa de chuva ou umidificador ☔️
+        <br><br>
+        E um toque especial: As <strong>imagens mudam conforme o clima!</strong> Se o dia está ensolarado, 
+        você vê Brasília cheia de flores. Se está seco, a paisagem muda para aquele clássico tom amarelado. 
+        E se tem nuvens, elas aparecem para te lembrar que o tempo pode virar a qualquer momento. Legal, né? 👀🌍
+        <br><br>
+        <h2>📚 Como funciona?</h2>
+        Este projeto foi construído com <strong>Angular</strong> (claro, meu queridinho! 😍), utilizando 
+        <strong>TypeScript, HTML e CSS,</strong> além da poderosa API da <strong>OpenWeatherMap.</strong>
+        <br><br>
+        <h2>📊 O que é a OpenWeatherMap?</h2>
+        A OpenWeatherMap é uma API que fornece dados meteorológicos detalhados, em tempo real, de várias regiões do mundo. 
+        Ela é incrivelmente flexível e permite buscar informações como temperatura, previsão para os próximos dias, 
+        umidade, vento e muito mais. Tudo isso de forma acessível através de requisições HTTP.
+        <br><br>
+        O que fiz aqui foi conectar meu app a essa API, garantindo que os dados estejam sempre atualizados e confiáveis. 
+        E o melhor: toda essa informação chega ao usuário de uma forma bonita e intuitiva, graças ao <strong>poder do 
+        Angular CLI</strong> e de componentes bem estruturados! 💪👩‍💻
+        <br><br>
+        <h2>🛠️ Quer experimentar?</h2>
+        <br>
+        🌍 <strong>Testa aí e me diz o que achou!</strong>
+        <br>
+        Acesse o app: <a href="https://tiexperient-weather.netlify.app/">🔗 Aqui</a>
+        <br><br>
+        🌐 <strong>Curioso para ver o código?</strong>
+        <br>
+        Dá uma olhada no repositório: <a href="https://github.com/tiexperient/angular-api-weather">🔗 Aqui</a>
+        <br><br>
+        O desenvolvimento desse app envolveu <strong>arquitetura bem planejada, manipulação de APIs, estilização responsiva 
+        e uma boa dose de café.</strong> Se você também ama Angular e quer aprender mais, vale a pena dar uma conferida!
+        `,
+        "photoCover": "assets/img/previsao-brasilia.jpg"
+    },
+    {
         "id": "8",
         "old_articles": "",
         "projects": "",
@@ -202,18 +260,13 @@ export const dataFake = [
     {
         "id": "5",
         "old_articles": "",
-        "projects": "",
+        "projects": "yes",
         "title": "Minha Play Station Store em Angular",
         "time":"9 de fevereiro de 2025",
-        /*
         "resume": `
-                    Uma loja fictícia de games com recursos incríveis, animações envolventes e interatividade total. 
-                    Descubra novos jogos, salve seus favoritos, confira avaliações e categorias, veja compatibilidade e valores, 
-                    e mergulhe nessa experiência imersiva feita para apaixonados por games!
-                `,
-        */
-        "resume": `
-        Uma loja fictícia de games cheia de recursos incríveis, animações envolventes e uma experiência imersiva! Quer saber mais? Vem conferir!
+        Uma loja fictícia de games cheia de recursos incríveis, animações envolventes e uma experiência imersiva! 
+        <br>
+        Quer saber mais? Vem conferir!
                 `,
         "description": `
         Criar projetos próprios é uma das melhores formas de aprender e evoluir como desenvolvedor. 
@@ -314,7 +367,9 @@ export const dataFake = [
         "title": "Capturando Pokémons com Angular e a PokéAPI",
         "time":"24 de Janeiro de 2025",
         "resume": `
-        Explore a Pokédex interativa em Angular! Busque Pokémon, veja imagens, tipos e animações.
+        Explore a Pokédex interativa em Angular! 
+        <br>
+        Busque Pokémon, veja imagens, tipos e animações.
                 `,
         "description": `
         Se você ama Pokémons e é viciado em códigos, prepare-se! Hoje vou mostrar como criei um app Angular que transforma seu 
