@@ -1,0 +1,14 @@
+/* Celular Retrato */
+@media (max-width:600px) and (orientation: portrait) {
+    .cards {
+        width: 90%;
+      }
+}
+
+/* Celular Paisagem */
+@media (max-width:800px) and (orientation: landscape) {
+    .cards {
+        width: 80%;
+      }
+
+}

@@ -1,0 +1,36 @@
+.container__big-card{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.big-card__photo > img {
+    border-radius: 10px;
+    width: 100%;
+    min-width: 400px;
+}
+
+.big-card__title > h1 {
+    margin-top: 15px;
+    font-size: 22px;
+}
+.big-card__title > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: grey;
+    margin-top: 5px;
+}
+
+.big-card__description {
+    margin-top: 10px;
+    color: grey;
+}
+.big-card__description > p > a {
+    margin-top: 10px;
+    color: grey;
+}

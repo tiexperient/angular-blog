@@ -1,0 +1,40 @@
+@media (max-width:600px) {
+    .container__artigos{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    } 
+}
+
+/* Celular Retrato */
+@media (max-width:800px) and (orientation: portrait) {
+    .container__artigos {
+        height: 190vh;
+    }
+}
+
+/* Celular Paisagem */
+@media (max-width:800px) and (orientation: landscape) {
+    .container__artigos {
+        height: 180vh;
+    }
+}
+
+/* Tablet Retrato */
+@media (min-width: 601px) and (max-width: 800px) and (orientation: portrait) {
+        .container__artigos {
+        height: 80vh;
+    }
+}
+
+/* Tablet Paisagem */
+@media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
+    .container__notice-main {
+        display: block;
+    }
+
+    .container__artigos {
+        height: 120vh;
+    }
+}

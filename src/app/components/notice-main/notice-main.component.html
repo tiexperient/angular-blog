@@ -1,0 +1,25 @@
+<div class="container__notice-main">
+    <div class="container__notice-main-content">
+        <div class="notice-main__photo">
+            <img 
+                src="{{ photoCover }}" 
+                alt=""
+                srcset=""
+            >
+        </div>
+    
+        <div class="notice-main__title">
+            <h1><a [routerLink]="['content', cardId]" [innerHTML]="cardTitle"></a></h1>
+            <p>{{cardTime}}</p>
+            <p><a class="read-more" [routerLink]="['content', cardId]">Leia mais</a></p>
+        </div>
+    </div>
+
+    <div class="container__notice-main__separator">
+        <hr>
+    </div>
+</div>
+
+
+
+

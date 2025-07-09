@@ -1,0 +1,22 @@
+<div class="cards" #cardsContainer>
+    
+  <div class="card" data-index="0" *ngFor="let card of cards; let i = index">
+   
+    <div class="card__inner">
+      <div class="card__image-container">
+        <img
+          class="card__image"
+          [src]="card.image"
+          alt=""
+        />
+      </div>
+      <div class="card__content">
+        <h1 class="card__title">
+          <a [routerLink]="['/content', card.id]">{{ card.title }}</a>
+        </h1><br>
+        <p class="card__description" [innerHTML]="card.resume"></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="space"></div>

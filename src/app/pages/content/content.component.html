@@ -1,0 +1,21 @@
+<hr>
+<div class="container__content">
+    <div class="content__cover">
+        <img class="content__photo"
+            src="{{ photoCover }}" 
+            alt="" 
+            srcset=""
+        >
+    </div>
+    <div class="content__title">
+        <h1>{{ contentTitle }}</h1>
+        <hr>
+    </div>
+    <div class="content__description">
+        <p [innerHTML]="contentDescription"></p>
+    </div>
+
+    <div>
+        <br><a [routerLink]="['']"> << VOLTAR </a>
+    </div>
+</div>

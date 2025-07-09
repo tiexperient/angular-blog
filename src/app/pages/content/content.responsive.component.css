@@ -1,0 +1,53 @@
+/* Desktop 1280X768 */
+@media (max-height: 768px) {
+    .container__content{
+        height: 250vh;
+    }
+  }
+
+/* Celular Retrato */
+@media screen and (max-width:600px) and (orientation: portrait) {
+    .container__content{
+        height: 300vh;
+    }
+
+    .content__cover > img {
+        border: 3px solid white;
+        margin: 0 2%;
+        width: 370px;
+        min-width: 370px;
+        height: 200px;
+    }
+
+    .content__title{
+        margin-top: 10px;
+        font-size: 11px;
+    }
+}
+
+/* Celular Paisagem */
+@media (max-width:800px) and (orientation: landscape) {
+    .container__content{
+        height: 450vh;
+    }
+
+    .content__cover > img {
+        border: 3px solid white;
+        margin: 0 2%;
+        width: 370px;
+        min-width: 370px;
+        height: 200px;
+    }
+
+    .content__title{
+        margin-top: 10px;
+        font-size: 11px;
+    }
+}
+
+ /* Tablet Paisagem */
+ @media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
+    .container__content{
+        height: 300vh;
+    }
+ }

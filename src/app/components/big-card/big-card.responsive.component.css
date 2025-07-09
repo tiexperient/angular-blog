@@ -1,0 +1,27 @@
+/* Celular Retrato */
+@media screen and (max-width:600px) and (orientation: portrait) {
+    .container__big-card{
+        display: none;
+    } 
+}
+
+/* Celular Paisagem */
+@media (max-width:800px) and (orientation: landscape) {
+    .container__big-card{
+        display: none;
+    }
+}
+
+/* Tablet Retrato */
+@media (min-width: 601px) and (max-width: 800px) and (orientation: portrait) {
+    .container__big-card{
+        display: none;
+    } 
+}
+
+ /* Tablet Paisagem */
+ @media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
+    .container__big-card{
+        display: none;
+    } 
+  }

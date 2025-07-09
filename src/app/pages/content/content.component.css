@@ -1,0 +1,40 @@
+hr{
+    margin-top: 20px;
+}
+
+.container__content{
+    width: 100%;
+    height: 200vh;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__cover{
+    margin-top: 20px;;
+}
+.content__cover > img {
+    border-radius: 10px;
+    width: 500px;
+    min-width: 500px;
+    height: 300px;
+}
+
+.content__title > hr {
+    margin-top: 20px;
+}
+
+.content__description {
+    margin-top: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.content__description > p {
+    margin-top: 20px;
+    color: gray;
+    margin: 0 2%;
+}
+.content__description > h2 {
+    text-align: center;
+}

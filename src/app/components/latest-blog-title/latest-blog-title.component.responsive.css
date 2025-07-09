@@ -1,0 +1,17 @@
+/* Celular Retrato */
+    @media (max-width:600px) and (orientation: portrait) {
+    .container__menu-title > p {
+                margin: 0 5%;
+    }
+
+    .container__menu-title > h1{
+        font-size: 2rem;
+    }
+}
+
+/* Celular Paisagem */
+    @media (max-width:800px) and (orientation: landscape) {
+        .container__menu-title > p {
+            margin: 0 10%;
+    }
+}

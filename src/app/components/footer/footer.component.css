@@ -1,0 +1,32 @@
+:host {
+  background-color: #373a3c;
+  color: #ecf0f1;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+img {
+  background-color: #373a3c;
+  margin-bottom: -5px;
+}
+
+a {
+  background-color: #373a3c;
+  color: bisque;
+}
+
+.footer {
+    display: block;
+    background-color: #373a3c;
+    padding: 20px 0;
+    bottom: 0;
+  }
+  
+  .container > p {
+    background-color: #373a3c;
+  }
+
+  .mobile{
+    display: none;
+  }

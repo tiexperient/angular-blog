@@ -1,0 +1,25 @@
+<div class="nft-container">
+<div class="nft" *ngFor="let blog of blogs">
+  <div class='main'>
+    <img class='tokenImage' [src]="blog.image" [alt]="blog.title" /> 
+    <a [routerLink]="['/content', blog.id]"><h2>{{ blog.title }}</h2></a>
+    <p class='description'>{{ blog.resume }}</p>
+    <div class='tokenInfo'>
+      <div class="duration">
+        <ins>◷</ins>
+        <p>{{ blog.time }}</p>
+      </div>
+      <div class="price">
+        <a [routerLink]="['/content', blog.id]"><p>Leia mais</p></a>
+      </div>
+    </div>
+    <hr />
+    <div class='creator'>
+      <div class='wrapper'>
+        <img src="assets/img/creator.png" alt="Creator" />
+      </div>
+      <p><ins>Criado por</ins> Célia Medeiros</p>
+    </div>
+  </div>
+</div>
+</div>

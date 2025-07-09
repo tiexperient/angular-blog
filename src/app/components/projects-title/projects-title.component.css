@@ -1,0 +1,27 @@
+.section-divider {
+    width: 80%; /* Define a largura da linha */
+    height: 2px; /* Define a altura da linha */
+    background-color: #fafafa; /* Cor da linha */
+    margin: 40px auto; /* Centraliza horizontalmente e adiciona margem superior/inferior */
+    border-radius: 5px; /* Suaviza as bordas */
+    opacity: 0.7; /* Deixa um pouco mais sutil */
+}
+
+.container__menu-title{
+    color:white;
+}
+
+.container__menu-title > h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container__menu-title > p {
+    margin: 0 20%;
+    text-align: center;
+    color: grey;
+}
