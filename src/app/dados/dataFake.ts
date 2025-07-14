@@ -1,4 +1,63 @@
 export const dataFake = [
+        {
+        "id": "11",
+        "old_articles": "",
+        "projects": "",
+        "title": "Chatbot inteligente com Python 🐍🤖📲",
+        "time":"14 de julho de 2025",
+        "resume": `
+                        Como o Python entrou na minha vida de forma inesperada e revolucionou minha forma de 
+                        pensar tecnologia. Descubra como superei o desinteresse inicial e passei a explorar 
+                        automações, APIs e IA com entusiasmo renovado!
+                `,
+        "description": `
+        Nos bastidores do universo da programação, algumas combinações são tão poderosas que simplesmente mudam tudo. 
+        Foi o que aconteceu quando decidi explorar a integração entre <strong>Python, WhatsApp</strong> e a <strong>
+        IA generativa Gemini</strong>. O resultado? Um <strong>chatbot inteligente</strong>, funcional e surpreendentemente 
+        interativo! 
+        <br><br>
+        <h2>Python: O cérebro por trás da mágica 🐍</h2>
+        Sempre admirei a flexibilidade do Python, mas confesso que ele se superou dessa vez. A ideia era simples 
+        (pelo menos no papel): criar uma automação que possibilitasse ao <strong>WhatsApp conversar de forma autônoma</strong>, 
+        com um toque de inteligência artificial.
+        <br><br>
+        A mágica começou com a <strong>geração do QR Code</strong> para conectar o bot ao WhatsApp — uma etapa que Python 
+        executou com maestria, eliminando burocracias e abrindo caminho para a próxima fase. Já havia feito algo semelhante 
+        usando <strong>Angular</strong>, mas a fluidez e a <strong>liberdade de ação</strong> que o Python proporcionou foram 
+        incomparáveis. É como se, com ele, <strong>“limitação” fosse uma palavra inexistente</strong> no dicionário da programação.
+        <br><br>
+        <h2>Gemini: A mente pensante do bot 💡</h2>
+        E então veio o toque de genialidade: integrar o <strong>Gemini</strong>, uma inteligência artificial com respostas 
+        contextuais e linguagem natural. Utilizando a API do Gemini, o meu bot evoluiu — passou de simples automatizador de 
+        mensagens para um <strong>verdadeiro assistente virtual</strong>, capaz de:
+        <br><br>
+        ✅ Compreender e responder perguntas com base em contexto;<br>
+        ✅ Manter o tom natural e fluido durante as conversas;<br>
+        ✅ Agilizar interações que antes exigiam a presença humana.
+        <br><br>
+        Resultado? <strong>Meu WhatsApp começou a conversar sozinho!</strong> 😱 E mais do que isso, de forma coerente, 
+        inteligente e… até carismática.
+        <br><br>
+        <h2>Por que isso é incrível?</h2>
+        🔧 Automação 100% customizável;<br>
+        🧠 IA integrada, com aprendizado contínuo;<br>
+        📈 Potencial de uso em atendimentos, vendas, suporte, marketing e muito mais.
+        <br><br>
+        Essa experiência me provou que o Python continua sendo uma das ferramentas mais <strong>poderosas e versáteis</strong> 
+        para desenvolvedores. E com a chegada de IAs como o Gemini, estamos só no começo de algo muito maior.
+        <br><br>
+        <h2>🌐 Explore na prática!</h2>
+        E se quiser ver como tudo foi construído nos bastidores, código-fonte completo está disponível aqui:
+        <br><br>
+        Acesse o <a href="https://github.com/tiexperient/angular-api-weather"><strong>Repositório no GitHub</strong> — 🔗 Aqui</a>
+        <br><br>
+        <h2>Conclusão</h2>
+        Construir esse projeto me trouxe aquela velha euforia de quando criamos algo que realmente <strong>funciona bem e 
+        surpreende</strong>. Se você também está em busca de soluções automatizadas e inteligentes, considere essa dupla dinâmica: 
+        Python + IA Gemini. O futuro das interações já chegou — e ele é absolutamente incrível! 💬🤯💻
+        `,
+        "photoCover": "assets/img/chatbot-ia-python.png"
+    },
     {
         "id": "10",
         "old_articles": "",
@@ -183,14 +242,13 @@ export const dataFake = [
     },
     {
         "id": "7",
-        "old_articles": "",
-        "projects": "",
+        "old_articles": "yes",
+        "projects": "yes",
         "title": "Chatbot Angular no atendimento ao público",
-        "time":"23 de fevereiro de 2025",
+        "time":"23 de fevereiro 2025",
         "resume": `
                     Já imaginou pedir pizza de forma simples, escolhendo apenas entre opções numeradas, 
-                    sem blá, blá, blá? Transformei isso em realidade! Com Angular, com um chatbot para 
-                    automatizar pizzarias. Continue lendo!
+                    sem blá, blá, blá? Transformei isso em realidade, com Angular.
                 `,
         "description": `
         Imagine um mundo onde pedir pizza é tão fácil quanto enviar um simples "Quero uma de calabresa!" pelo WhatsApp. 
@@ -476,7 +534,7 @@ export const dataFake = [
     },
     {
         "id": "2",
-        "old_articles": "yes",
+        "old_articles": "",
         "projects": "",
         "title": "Rotina de estudos se faz fundamental",
         "time":"18 de Janeiro de 2025",
