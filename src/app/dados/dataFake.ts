@@ -49,7 +49,7 @@ export const dataFake = [
         <h2>🌐 Explore na prática!</h2>
         E se quiser ver como tudo foi construído nos bastidores, código-fonte completo está disponível aqui:
         <br><br>
-        Acesse o <a href="https://github.com/tiexperient/angular-api-weather"><strong>Repositório no GitHub</strong> — 🔗 Aqui</a>
+        Acesse o <a href="https://github.com/tiexperient/python-chatbot"><strong>Repositório no GitHub</strong> — 🔗 Aqui</a>
         <br><br>
         <h2>Conclusão</h2>
         Construir esse projeto me trouxe aquela velha euforia de quando criamos algo que realmente <strong>funciona bem e 
