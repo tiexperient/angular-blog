@@ -1,5 +1,65 @@
 export const dataFake = [
-        {
+    {
+        "id": "12",
+        "old_articles": "",
+        "projects": "",
+        "title": "Enviando e-mails com PHP, Angular e Python",
+        "time":"18 de julho de 2025",
+        "resume": `
+                        Como PHP, Angular e Python me ensinaram diferentes formas de enviar e-mails com eficiência, 
+                        criatividade e um toque de código inteligente. Uma jornada entre linguagens que vale a leitura!
+                `,
+        "description": `
+        Por muito tempo, trilhei meus caminhos com muito carinho pelo PHP. Ele foi meu primeiro companheiro de jornada no 
+        mundo da programação web, e quando o assunto era envio de e-mails, tudo fluía com facilidade usando o bom e velho 
+        mail().
+        <br><br>
+        <strong>Era simples, direto e funcionava</strong>. Mas como tudo na tecnologia evolui, as regras de segurança também 
+        apertaram. A função mail() passou a apresentar barreiras... os servidores ficaram mais rigorosos, os filtros mais 
+        exigentes, e o que antes era confortável começou a travar.
+        <br><br>
+        Com a função nativa perdendo eficiência, decidi caminhando com o PHP — busquei atuar com mais robustez. Criei 
+        <strong>uma API própria para envio de e-mails usando o Brevo</strong>. A estrutura exigia pelo menos três arquivos 
+        e um número razoável de linhas de código. Mas eu já estava acostumada com esse cenário. Era como montar um 
+        quebra-cabeça conhecido. 🧩
+        <br><br>
+        <h2>O Angular entrou em cena... 💡</h2>
+        Quando o assunto é o <strong>meu queridinho</strong>, nem preciso comentar sobre robustez: Como sempre, ele me desafiou 
+        e encantou. 
+        <br><br>
+        Realizei uma integração com <strong>EmailJS</strong> que permitia enviar e-mails <strong>diretamente do frontend</strong> 
+        — sem necessidade de backend!
+        <br><br>
+        Um chatbot que armazenava as escolhas do usuário e enviava um resumo da conversa diretamente para a caixa de entrada do 
+        dono da bot.
+        <br><br>
+        Claro, no Angular o processo foi mais elaborado: serviços, mapeamento da API, estrutura dos componentes... Mas o resultado 
+        foi <strong>fabuloso</strong>! E ver tudo funcionando com fluidez deu aquele quentinho no coração de dev. 
+        <br><br>
+        <h2>E então... conheci o Python! 🐍</h2>
+        No início, achei o Python meio... metódico demais. Essa coisa de identação obrigatória me lembrava dividir o quarto com um 
+        colega que exige tudo alinhado e impecável pra funcionar.
+        <br><br>
+        Decidi fazer um teste simples, quase sem expectativas. E de repente: <strong>em apenas 26 linhas</strong>, um e-mail foi 
+        enviado com sucesso. <strong>Sem servidor, sem esforço, sem crise</strong>. Eu fiquei chocada!
+        <br><br>
+        Logo percebi: apesar de criteriosamente organizado, <strong>o Python é flexível onde importa</strong> — não exige ponto e 
+        vírgula no final das linhas, é liberal com declaração de variáveis e preza por <strong>código enxuto, direto ao ponto</strong>. 
+        Ganhou meu respeito!
+        <br><br>
+        <h2>Conclusão com café ☕</h2>
+        Essa jornada me ensinou que <strong>cada linguagem tem sua beleza</strong>, seus jeitos e suas manias. E como desenvolvedora, 
+        aprendi a respeitar e extrair o melhor de cada uma delas.
+        <br><br>
+        <strong>Hoje, envio e-mails com mais consciência, mais segurança e mais opções</strong>. Seguindo apaixonada por essa aventura 
+        onde cada linguagem me ensina algo novo
+        Abaixo, código-fonte completo disponível. Nele em café, código, e tem muito amor pela profissão!:
+        <br><br>
+        Acesse o <a href="https://github.com/tiexperient/python-chatbot"><strong>Repositório no GitHub</strong> — 🔗 Aqui</a>
+        `,
+        "photoCover": "assets/img/email-python.png"
+    },
+    {
         "id": "11",
         "old_articles": "",
         "projects": "",
@@ -176,7 +236,7 @@ export const dataFake = [
     {
         "id": "8",
         "old_articles": "",
-        "projects": "",
+        "projects": "yes",
         "title": "Avaliação de Clima Organizacional em Angular",
         "time":"2 de março de 2025",
         "resume": `
@@ -242,7 +302,7 @@ export const dataFake = [
     },
     {
         "id": "7",
-        "old_articles": "yes",
+        "old_articles": "",
         "projects": "yes",
         "title": "Chatbot Angular no atendimento ao público",
         "time":"23 de fevereiro 2025",
@@ -308,7 +368,7 @@ export const dataFake = [
     },
     {
         "id": "6",
-        "old_articles": "yes",
+        "old_articles": "",
         "projects": "yes",
         "title": "Uma Revolução Saborosa com Angular",
         "time":"16 de fevereiro 2025",
@@ -534,7 +594,7 @@ export const dataFake = [
     },
     {
         "id": "2",
-        "old_articles": "",
+        "old_articles": "yes",
         "projects": "",
         "title": "Rotina de estudos se faz fundamental",
         "time":"18 de Janeiro de 2025",
@@ -594,7 +654,7 @@ export const dataFake = [
     },
     {
         "id": "1",
-        "old_articles": "",
+        "old_articles": "yes",
         "projects": "",
         "title": "TI Experient entra com tudo em 2025",
         "time":"Dezembro de 2024",
