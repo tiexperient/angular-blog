@@ -55,7 +55,7 @@ export const dataFake = [
         onde cada linguagem me ensina algo novo
         Abaixo, código-fonte completo disponível. Nele em café, código, e tem muito amor pela profissão!:
         <br><br>
-        Acesse o <a href="https://github.com/tiexperient/python-chatbot"><strong>Repositório no GitHub</strong> — 🔗 Aqui</a>
+        Acesse o <a href="https://github.com/tiexperient/python-email"><strong>Repositório no GitHub</strong> — 🔗 Aqui</a>
         `,
         "photoCover": "assets/img/email-python.png"
     },
