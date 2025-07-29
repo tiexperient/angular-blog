@@ -1,4 +1,59 @@
 export const dataFake = [
+        {
+        "id": "13",
+        "old_articles": "",
+        "projects": "",
+        "title": "WhatsApp + IA: sem custo, só código",
+        "time":"18 de julho de 2025",
+        "resume": `
+                        Como usei Docker, Waha e N8N para transformar meu WhatsApp em um bot inteligente — 
+                        tudo sem APIs pagas. Uma leitura que pode te inspirar!
+                `,
+        "description": `
+        Você já imaginou conversar com uma <strong>agente de inteligência artificial diretamente no WhatsApp?</strong> 
+        E melhor: sem depender de soluções pagas ou complicadas?
+        <br><br>
+        Pois é exatamente isso que eu fiz e vou te mostrar como!
+        <br><br>
+        <h2>A stack por trás do projeto 📦</h2>
+        Toda a estrutura de integração local foi montada com ferramentas poderosas e gratuitas.
+        <br><br>
+        <strong>As ferramentas utilizadas:</strong>
+        <br>
+        🐳 Docker: para orquestrar os serviços localmente; <br>
+        🔁 Redis: como memória temporária de sessão;<br>
+        🤖 Waha (WhatsApp HTTP API): para a conexão com o WhatsApp;<br>
+        🔄 N8N: plataforma de automações e fluxos no-code/low-code.<br>
+        <br><br>
+        <h2>O docker-compose.yml 🛠️</h2>
+        A mágica acontece no arquivo docker-compose.yml, que roda os serviços necessários com um simples docker compose up -d.
+        <br><br>
+        Para entender melhor ou adaptar a solução para o seu negócio, confira o repositório completo:
+        <br>
+        👉 Acesse o <a href="https://github.com/tiexperient/python-email"><strong>Repositório no GitHub</strong> — 🔗 Aqui</a>
+        <br><br>
+        Com isso, o bot fica pronto para interagir via WhatsApp usando um <strong>fluxo de automação com N8N</strong> e um 
+        toque de IA integrado. 🔗✨
+        <br><br>
+        <h2>Interaja com o bot agora mesmo</h2>
+        <br>
+        📲 <a href="https://api.whatsapp.com/send/?phone=556130314116&text=Bot%2C+quero+fazer+uma+pergunta+bem+complexa%21&type=phone_number&app_absent=0"><strong>Clique Aqui</strong></a> para abrir no WhatsApp e diga:
+        <br><br>
+        <i>Bot, quero fazer uma pergunta bem complexa!</i>
+        <br><br>
+        Ele está esperando por você com uma carinha high tech, inspirada na criadora ❤️ 
+        <br><br>
+        Esse projeto mostra como é possível criar automações poderosas e acessíveis com ferramentas open-source, 
+        criatividade e café ☕
+        <br><br>
+        <strong>💡 Aprendizados:</strong>
+        <br>
+        - Como conectar IA com WhatsApp.<br>
+        - Como usar o N8N para orquestrar automações.<br>
+        - Como configurar Redis e APIs com Docker em minutos.<br>
+        `,
+        "photoCover": "assets/img/agente-ia-zap-n8n.png"
+    },
     {
         "id": "12",
         "old_articles": "",
@@ -18,7 +73,7 @@ export const dataFake = [
         apertaram. A função mail() passou a apresentar barreiras... os servidores ficaram mais rigorosos, os filtros mais 
         exigentes, e o que antes era confortável começou a travar.
         <br><br>
-        Com a função nativa perdendo eficiência, decidi caminhando com o PHP — busquei atuar com mais robustez. Criei 
+        Com a função nativa perdendo eficiência, decidi caminhando com o PHP, busquei atuar com mais robustez. Criei 
         <strong>uma API própria para envio de e-mails usando o Brevo</strong>. A estrutura exigia pelo menos três arquivos 
         e um número razoável de linhas de código. Mas eu já estava acostumada com esse cenário. Era como montar um 
         quebra-cabeça conhecido. 🧩
@@ -27,11 +82,11 @@ export const dataFake = [
         Quando o assunto é o <strong>meu queridinho</strong>, nem preciso comentar sobre robustez: Como sempre, ele me desafiou 
         e encantou. 
         <br><br>
-        Realizei uma integração com <strong>EmailJS</strong> que permitia enviar e-mails <strong>diretamente do frontend</strong> 
-        — sem necessidade de backend!
+        Realizei uma integração com <strong>EmailJS</strong> que permitia enviar e-mails <strong>diretamente do frontend</strong>, 
+        sem necessidade de backend!
         <br><br>
         Um chatbot que armazenava as escolhas do usuário e enviava um resumo da conversa diretamente para a caixa de entrada do 
-        dono da bot.
+        dono do bot.
         <br><br>
         Claro, no Angular o processo foi mais elaborado: serviços, mapeamento da API, estrutura dos componentes... Mas o resultado 
         foi <strong>fabuloso</strong>! E ver tudo funcionando com fluidez deu aquele quentinho no coração de dev. 
@@ -43,7 +98,7 @@ export const dataFake = [
         Decidi fazer um teste simples, quase sem expectativas. E de repente: <strong>em apenas 26 linhas</strong>, um e-mail foi 
         enviado com sucesso. <strong>Sem servidor, sem esforço, sem crise</strong>. Eu fiquei chocada!
         <br><br>
-        Logo percebi: apesar de criteriosamente organizado, <strong>o Python é flexível onde importa</strong> — não exige ponto e 
+        Logo percebi: apesar de criteriosamente organizado, <strong>o Python é flexível onde importa</strong>. Não exige ponto e 
         vírgula no final das linhas, é liberal com declaração de variáveis e preza por <strong>código enxuto, direto ao ponto</strong>. 
         Ganhou meu respeito!
         <br><br>
@@ -53,7 +108,7 @@ export const dataFake = [
         <br><br>
         <strong>Hoje, envio e-mails com mais consciência, mais segurança e mais opções</strong>. Seguindo apaixonada por essa aventura 
         onde cada linguagem me ensina algo novo
-        Abaixo, código-fonte completo disponível. Nele em café, código, e tem muito amor pela profissão!:
+        Abaixo, código-fonte completo disponível. Nele em café, código, e tem muito amor pela profissão!
         <br><br>
         Acesse o <a href="https://github.com/tiexperient/python-email"><strong>Repositório no GitHub</strong> — 🔗 Aqui</a>
         `,
@@ -178,7 +233,7 @@ export const dataFake = [
     {
         "id": "9",
         "old_articles": "",
-        "projects": "",
+        "projects": "yes",
         "title": "Previsão do Tempo em Brasília com Angular ☕️✨",
         "time":"2 de março de 2025",
         "resume": `
