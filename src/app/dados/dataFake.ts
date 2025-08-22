@@ -1,5 +1,67 @@
 export const dataFake = [
-        {
+    {
+        "id": "14",
+        "old_articles": "",
+        "projects": "",
+        "title": "Automação Inteligente no RH",
+        "time":"11 de Agosto de 2025",
+        "resume": `
+                        Como Transformei a Análise de Currículos em um Processo Ágil e Eficiente utilizando o N8N.
+                `,
+        "description": `
+        No mundo corporativo, tempo é recurso valioso, e no setor de Recursos Humanos, esse tempo costuma ser consumido por 
+        longas análises manuais de currículos e etapas iniciais de seleção. Pensando nisso, desenvolvi uma <strong>automação 
+        inteligente no N8N</strong> para otimizar o processo de triagem de candidatos, permitindo que o RH concentre seus 
+        esforços no que realmente importa: <strong>encontrar talentos certos para cada vaga.</strong>
+        <br><br>
+        <h2>Como funciona a automação? 🔍</h2>
+        O fluxo começa de forma simples: o candidato preenche um formulário com suas informações e expectativas salariais. 
+        A partir daí, o N8N entra em ação, conduzindo o processo por um funil automatizado de decisões.
+        <br><br>
+        <strong>1. Análise Salarial Automática</strong><br>
+        - Se a pretensão salarial estiver muito acima do que a empresa oferece, o candidato recebe um <strong>e-mail educado 
+        e acolhedor</strong> agradecendo sua participação, informando que outro candidato foi selecionado naquele momento.<br>
+        - Se estiver dentro ou próximo do valor oferecido, ele avança para a próxima etapa.
+        <br><br>
+        <strong>2. Encaminhamento por Vaga e Critérios Específicos</strong><br>
+        O sistema identifica o cargo para o qual o candidato se inscreveu e dispara automaticamente um <strong>e-mail com 
+        instruções personalizadas,</strong> como:<br>
+        - <strong>Design Gráfico:</strong> criar uma página de catálogo no InDesign com produtos enviados em anexo.<br>
+        - <strong>Web Design:</strong> desenvolver um formulário de cadastro em HTML, CSS, JavaScript e PHP.<br>
+        - <strong>Analista Dev:</strong> analisar e tratar um código enviado, integrar a API de chatbot e publicar no GitHub.
+        <br><br>
+        <strong>3. Casos Especiais e Reserva de Talentos</strong><br>
+        Em alguns cargos, candidatos que pedem um pouco acima do salário oferecido não são descartados de imediato. 
+        Eles entram em uma <strong>reserva estratégica,</strong> prontos para serem chamados caso os primeiros selecionados 
+        não atendam às expectativas.
+        <br><br>
+        <strong>4. Convites para Entrevista e Integração com Google Calendar</strong><br>
+        - Candidatos aprovados na triagem recebem automaticamente um e-mail com <strong>data, hora, local ou link da entrevista,</strong>
+         além de um botão para confirmar presença.<br>
+        - O RH recebe a notificação e a entrevista já é registrada no <strong>Google Calendar.</strong>
+        <br><br>
+        <h2>O diferencial dessa automação 💡</h2>
+        O grande “pulo do gato” está na <strong>análise híbrida e estratégica:</strong> o sistema garante prioridade para 
+        candidatos que atendem aos requisitos principais, mas mantém um banco de talentos reserva para uma segunda rodada de 
+        entrevistas, evitando perder bons profissionais apenas por um pequeno ajuste salarial.<br>
+        Além disso, a automação <strong>elimina leituras exaustivas de currículos</strong> na fase inicial, permitindo que o RH 
+        foque na avaliação qualitativa dos candidatos mais promissores.
+        <br><br>
+        <h2>Benefícios para o RH 📈</h2>
+        - <strong>Economia de tempo</strong> nas etapas iniciais.<br>
+        - <strong>Padronização da comunicação</strong> com candidatos.<br>
+        - <strong>Integração com ferramentas essenciais,</strong> como e-mail e Google Calendar.<br>
+        - <strong>Maior assertividade</strong> na seleção.<br>
+        - <strong>Experiência positiva para o candidato,</strong> que recebe retorno rápido e personalizado.
+        <br><br>
+        Essa solução mostra que tecnologia e estratégia podem caminhar juntas para transformar processos de recrutamento. 
+        O resultado? <strong>Mais agilidade, mais precisão e menos esforço operacional.</strong>
+        <br><br>
+        E você, já pensou em como a automação pode revolucionar seu processo seletivo? 💬
+        `,
+        "photoCover": "assets/img/automacao-rh.png"
+    },
+    {
         "id": "13",
         "old_articles": "",
         "projects": "",
@@ -175,14 +237,14 @@ export const dataFake = [
     },
     {
         "id": "10",
-        "old_articles": "",
+        "old_articles": "yes",
         "projects": "",
-        "title": "O Python me conquistou... e eu disse sim! 🐍",
+        "title": "Quando eu disse SIM ao Python 🐍",
         "time":"8 de julho de 2025",
         "resume": `
                         Como o Python entrou na minha vida de forma inesperada e revolucionou minha forma de 
-                        pensar tecnologia. Descubra como superei o desinteresse inicial e passei a explorar 
-                        automações, APIs e IA com entusiasmo renovado!
+                        pensar tecnologia. Descubra como passei a explorar 
+                        automações, APIs e IA!
                 `,
         "description": `
         Nos últimos meses, vivi uma verdadeira imersão em aprendizado, mudanças e descobertas. 
