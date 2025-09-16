@@ -11,8 +11,6 @@ export const dataFake = [
                         personalizada.
                 `,
         "description": `
-        🚀 Construindo um Tutor de IA com RAG no n8n
-
         A combinação de <strong>Inteligência Artificial</strong> com <strong>RAG (Retrieval-Augmented Generation)</strong> vem 
         transformando a forma como aprendemos e consultamos informações. No meu projeto mais recente, utilizei o <strong>n8n</strong> 
         como orquestrador para criar um <strong>tutor inteligente em Python</strong>, capaz de responder dúvidas, explicar conteúdos 
