@@ -1,4 +1,65 @@
 export const dataFake = [
+        {
+        "id": "15",
+        "old_articles": "",
+        "projects": "",
+        "title": "🎓 Tutor de IA com RAG e N8N",
+        "time":"16 de Setembro de 2025",
+        "resume": `
+                        Como Construí um Tutor de IA Interativo para Ensino de Programação utilizando RAG e n8n, 
+                        capaz de acessar materiais, responder dúvidas e explicar conceitos de forma clara e 
+                        personalizada.
+                `,
+        "description": `
+        🚀 Construindo um Tutor de IA com RAG no n8n
+
+        A combinação de <strong>Inteligência Artificial</strong> com <strong>RAG (Retrieval-Augmented Generation)</strong> vem 
+        transformando a forma como aprendemos e consultamos informações. No meu projeto mais recente, utilizei o <strong>n8n</strong> 
+        como orquestrador para criar um <strong>tutor inteligente em Python</strong>, capaz de responder dúvidas, explicar conteúdos 
+        e até orientar estudos com base em materiais alimentados automaticamente.
+        <br><br>
+        <h2>📂 Como funciona a alimentação do tutor</h2><br>
+        Tudo começa com a <strong>cultura de aprendizado:</strong><br>
+        - Arquivos de <strong>aulas, exercícios e provas</strong> são armazenados no <strong>Google Drive</strong>;<br>
+        - O workflow do n8n faz o <strong>download automático</strong> desses arquivos e envia para um banco vetorial no 
+        <strong>Pinecone</strong>, após gerar <strong>embeddings</strong> com o <strong>OpenAI</strong>;<br>
+        - O conteúdo é fragmentado com técnicas de <strong>Text Splitting</strong>, garantindo que cada trecho possa ser 
+        buscado com precisão quando o aluno fizer uma pergunta.
+        <br><br>
+        Em resumo: qualquer novo material adicionado ao Google Drive passa a ser incorporado ao “cérebro” do tutor, 
+        enriquecendo continuamente sua base de conhecimento.
+        <br><br>
+        <h2>🧠 O tutor em ação</h2><br>
+        Na segunda etapa, temos a <strong>Conversa com o Tutor de IA:</strong><br><br>
+        - O aluno interage via chat;<br>
+        - Um agente no n8n, conectado ao modelo de linguagem da OpenAI, recebe a pergunta;<br>
+        - O agente consulta o Pinecone, recupera os trechos relevantes dos exercícios e <strong>responde de forma didática</strong>, 
+        sempre com explicações detalhadas, passo a passo, e até analogias do cotidiano para facilitar a compreensão;<br>
+        - Há também um <strong>sistema de memória</strong> que mantém o contexto da conversa, permitindo que o tutor acompanhe 
+        a linha de raciocínio do aluno.
+        <br><br>
+        Esse tutor não só responde, mas <strong>ensina como um professor faria</strong>:<br>
+        👉 Explicando variáveis como “caixinhas que guardam valores”;<br>
+        👉 Loops como “tarefas repetidas do dia a dia”;<br>
+        👉 Listas como “filas de supermercado”.
+        <br><br>
+        <h2>🎯 Vantagens da abordagem</h2><br>
+        1. <strong>Aprendizado personalizado</strong> – O aluno pode revisar tópicos específicos de provas, exercícios ou 
+        assuntos explicados em aula;<br>
+        2. <strong>Atualização contínua</strong> – Basta inserir novos materiais no Google Drive para que o tutor fique mais 
+        inteligente;<br>
+        3. <strong>Explicações claras e humanas</strong> – A IA não responde apenas, mas guia o aluno no processo de 
+        aprendizado;<br>
+        4. <strong>Flexibilidade</strong> – O modelo pode ser adaptado para qualquer disciplina, não apenas Python.
+        <br><br>
+        <h2>🔮 Conclusão</h2><br>
+        Esse projeto mostra como <strong>IA + RAG + n8n</strong> podem criar soluções educacionais poderosas.<br><br>
+        O tutor não substitui o professor, mas atua como um <strong>assistente disponível 24/7</strong>, pronto para reforçar 
+        o aprendizado e ajudar estudantes a compreender até os conceitos mais complexos.<br><br>
+        No fim das contas, é como ter um <strong>professor particular digital</strong>, sempre atualizado e disposto a ensinar com paciência e clareza.
+        `,
+        "photoCover": "assets/img/rag-n8n.png"
+    },
     {
         "id": "14",
         "old_articles": "",
@@ -179,13 +240,13 @@ export const dataFake = [
     {
         "id": "11",
         "old_articles": "",
-        "projects": "",
+        "projects": "yes",
         "title": "Chatbot inteligente com Python 🐍🤖📲",
         "time":"14 de julho de 2025",
         "resume": `
-                        Como o Python entrou na minha vida de forma inesperada e revolucionou minha forma de 
-                        pensar tecnologia. Descubra como superei o desinteresse inicial e passei a explorar 
-                        automações, APIs e IA com entusiasmo renovado!
+                        Como transformei uma simples ideia em um chatbot inteligente e interativo, unindo Python, 
+                        WhatsApp e a IA Gemini. Descubra como essa combinação poderosa revolucionou minhas automações 
+                        e abriu caminho para novas possibilidades em tecnologia!
                 `,
         "description": `
         Nos bastidores do universo da programação, algumas combinações são tão poderosas que simplesmente mudam tudo. 
